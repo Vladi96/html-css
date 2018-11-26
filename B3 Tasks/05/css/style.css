@@ -1,0 +1,102 @@
+/* ------------------------------------------------------------ *\
+    Fonts
+    
+    <!-- @import url(fonts/font-style.css); -->
+\* ------------------------------------------------------------ */
+
+
+/* ------------------------------------------------------------ *\
+    Reset
+\* ------------------------------------------------------------ */
+
+* { margin: 0; padding: 0; box-sizing: border-box; }
+
+a:before,
+a:after { box-sizing: inherit; }
+
+ul { list-style-type: none }
+
+/* ------------------------------------------------------------ *\
+    Base
+\* ------------------------------------------------------------ */
+
+body { font-family: 'Proxima Nova (TT)',sans-serif; font-size: 16px; line-height: 1.5; color: #5e5e5e; background: #fff; }
+
+h1 { font-size: 48px; font-weight: normal; color: #c41d1d; font-family: 'Proxima Nova (OT1)', sans-serif; font-weight: 600;}
+h2 { font-size: 24px; font-weight: normal; color: #5e5e5e; }
+h3 { font-size: 20px; color: #2e2e2e; font-family: 'Proxima Nova (OT1)', sans-serif; }
+
+a { color: #5e5e5e; text-decoration: underline; }
+a:hover { color: #fc5f5f; text-decoration: none; }
+
+/* ------------------------------------------------------------ *\
+    Clear
+\* ------------------------------------------------------------ */
+
+.clear:after { content: ''; display: block; clear: both; }
+
+/* ------------------------------------------------------------ *\
+    Shell
+\* ------------------------------------------------------------ */
+
+.shell { margin: 0 auto; width: 980px; }
+
+/* ------------------------------------------------------------ *\
+    Heade and footer
+\* ------------------------------------------------------------ */
+
+.header,
+.footer { background-color: #979797; text-align: center; padding: 85px 0; color: #fff; font-size: 20px; }
+
+/* ------------------------------------------------------------ *\
+    Main
+\* ------------------------------------------------------------ */
+
+.main { padding: 0 18px }
+
+/* ------------------------------------------------------------ *\
+    Title
+\* ------------------------------------------------------------ */
+
+.title { text-align: center; padding: 25px 0 15px; }
+
+/* ------------------------------------------------------------ *\
+    Table products    
+\* ------------------------------------------------------------ */
+
+.table-products { border-radius: 5px; border: 1px solid #ababab; }
+.table-products table { width: 100%; border-spacing: 0; text-align: left; }
+
+.table-products .col-1 { width: 605px; }
+.table-products .col-2 { width: 167px; background-color: #f8f8f8; }
+.table-products .col-3 { background-color: #f1f1f1; }
+
+.table-products th { padding: 25px 31px 21px; font-size: 20px; font-weight: 600; font-family: 'Proxima Nova (OT1)', sans-serif; color: #000; }
+.table-products th + th { border-left: 1px solid #e0e0e1; text-align: center; } 
+
+.table-products td { border-top: 1px solid #e0e0e1; }
+.table-products td { padding: 13px 30px; color: #2e2e2e; font-family: 'Proxima Nova (TT)',sans-serif; }
+.table-products td + td { text-align: center; color: #1c80b9; padding: 0; border-left: 1px solid #e0e0e1; }
+
+
+.price { font-weight: 800; }
+
+.ico-check,
+.excluded { width: 29px; height: 32px; display: inline-block; }
+
+.excluded { background: url(images/excluded.png); }
+.ico-check { background: url(images/ico-check.png); }
+
+.icons:before { content: ''; background: url(images/facebook-cio.png) no-repeat 0 0; width: 85px; height: 32px; display: inline-block; vertical-align: middle; margin: 0 14px; }
+.icons:after { content: ''; background: url(images/gmail-ico.png) no-repeat 0 0; width: 75px; height: 34px; display: inline-block; vertical-align: middle; margin: 0 14px; }
+
+.chose-plan { padding: 6px 13px; color: #fff; font-size: 16px; border-radius: 22px; text-decoration: none; background: linear-gradient(to bottom, #d32121 0%, #d32121 7%, #991111 100%); border: 3px solid #fff; box-shadow: 0px 0px 5px 3px rgba(229,229,229,1); font-weight: 700; display: inline-block; margin: 12px 0; }
+
+.footer-tbody { font-size: 21px; font-weight: 600; }
+
+/* ------------------------------------------------------------ *\
+    Section
+\* ------------------------------------------------------------ */
+
+.section { margin: 35px 0 10px; }
+.article { float: left; width: 50%; padding: 0 30px; margin-bottom: 25px; }

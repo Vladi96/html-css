@@ -1,0 +1,17 @@
+* { margin: 0; padding: 0; }
+
+.clear { clear: both; }
+
+.shell { margin: 0 auto; width: 1030px; }
+
+.section { background-color: #c9c9c9; width: 990px; padding: 20px; }
+
+.container { width: 33.33%; float: left; }
+.container:nth-child(odd) { margin-top: 30px; }
+.container + .container + .container { float: right; }
+
+.rectangle { width: 100px; height: 40px; background-color: #23a654; float: left; }
+.rectangle + .rectangle { margin-left: 10px; }
+
+.square { width: 80px; height: 80px; background-color: #2389a6; margin: 0 auto; }
+

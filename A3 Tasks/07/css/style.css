@@ -1,0 +1,55 @@
+/* ------------------------------------------------------------ *\
+    Reset
+\* ------------------------------------------------------------ */
+
+* { margin: 0; padding: 0; box-sizing: border-box; }
+
+a:before,
+a:after { box-sizing: inherit; }
+
+/* ------------------------------------------------------------ *\
+    Site
+\* ------------------------------------------------------------ */
+
+.clear { clear: both; }
+
+.shell { margin: 0 auto; width: 880px; }
+
+
+/* ------------------------------------------------------------ *\
+    Section
+\* ------------------------------------------------------------ */
+
+.section { width: 290px; float: left; }
+.section + .section { margin-left: 2px; }
+
+.footer { padding: 20px; }
+
+/* ------------------------------------------------------------ *\
+    All - box
+\* ------------------------------------------------------------ */
+
+.bigger-box { height: 230px; position: relative; background-color: #c9c9c9; }
+
+.small-box { height: 100px; background-color: #e4e4e4; padding: 15px; text-align: center; }
+
+/* ------------------------------------------------------------ *\
+    Circles
+\* ------------------------------------------------------------ */
+
+.circle-pink { width: 50px; height: 50px; border-radius: 50%; background-color: #bc5bad; position: absolute; top: 8.5%; right: 7%; }
+
+.circle-container { margin-top: 6px; display: inline-block;  }
+
+.circle-purple { width: 30px; height: 30px; border-radius: 50%; background-color: #7323a6; float: left; }
+.circle-purple + .circle-purple { margin-left: 8px; }
+
+/* ------------------------------------------------------------ *\	
+    Rectangles
+\* ------------------------------------------------------------ */
+
+.rect-orange { width: 160px; height: 34px; background-color: #d47300; margin: 0 auto; }
+
+.rect-green { height: 20px; background-color: #23a654; margin-bottom: 10px; }
+
+.rect-blue { height: 46px; background-color: #2373a6; }

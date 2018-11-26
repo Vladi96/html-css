@@ -1,0 +1,161 @@
+/* ------------------------------------------------------------ *\
+    Fonts
+	
+	<!-- @import url(fonts/font-style.css); -->
+\* ------------------------------------------------------------ */
+
+
+/* ------------------------------------------------------------ *\
+    Reset
+\* ------------------------------------------------------------ */
+
+* { margin: 0; padding: 0; box-sizing: border-box; }
+
+a:before,
+a:after { box-sizing: inherit; }
+
+ul { list-style-type: none }
+
+/* ------------------------------------------------------------ *\
+    Base
+\* ------------------------------------------------------------ */
+
+body { font-family: "Droid Sans",sans-serif ; font-size: 13px; line-height: 1.4; color:#666; ; background: #6c1e1e; }
+
+a { color: #cd7e7e; text-decoration: underline; }
+a:hover { color: #fc5f5f; text-decoration: none; }
+
+.hidden { display: none; }
+
+/* ------------------------------------------------------------ *\
+    Clear
+\* ------------------------------------------------------------ */
+
+.clear:after { content: ''; display: block; clear: both; }
+
+/* ------------------------------------------------------------ *\
+    Shell
+\* ------------------------------------------------------------ */
+
+.shell { margin: 0 auto; width: 980px; }
+
+/* ------------------------------------------------------------ *\
+    Nav
+\* ------------------------------------------------------------ */
+
+.nav { background-color: #4a0c0c; padding: 10px 0; }
+.nav li { float: left; }
+.nav li + li { margin-left: 23px; }
+.nav a { color: #e09393; text-decoration: none; }
+.nav a:hover { color: #b9b9b9; text-decoration: underline; }
+
+/* ------------------------------------------------------------ *\
+    Header
+\* ------------------------------------------------------------ */
+
+.header { padding: 20px 0; text-align: center; }
+
+/* ------------------------------------------------------------ *\
+    Visit also
+\* ------------------------------------------------------------ */
+
+.left-side {  float: left; margin-top: 20px}
+
+.visit-also { background: url(images/visit-also.png) no-repeat 0 0; width: 84px; height: 64px; display: inline-block;  font-size: 0; text-indent: -4444px; }
+
+/* ------------------------------------------------------------ *\
+	Logo    
+\* ------------------------------------------------------------ */
+
+.center { position: absolute; left: 50%; transform: translateX(-50%); }
+
+.logo { background: url(images/logo.png) no-repeat 0 0; width: 179px; height: 82px;  display: inline-block; font-size: 0; text-indent: -4444px; }
+
+/* ------------------------------------------------------------ *\
+    From Search
+\* ------------------------------------------------------------ */
+
+.right { float: right; margin-top: 80px; }
+.field-search { background-color: #986262; border: none; height: 23px; width: 197px; color: #6c3634; padding: 7px 30px; }
+.field-search:focus{ outline: none; }
+::placeholder { color: #6c3634 }
+
+.form-search { position: relative; }
+.form-search:before { content: ''; background: url(images/search-front-img.png) no-repeat 0 0; position: absolute; left: 0; top: 0; width: 23px; height: 23px; display: inline-block; }
+.form-search:after { content: ''; background: url(images/loop.png) no-repeat 0 0; position: absolute; right: 4px; bottom: 50%; transform: translateY(50%); width: 14px; height: 14px; }
+
+/* ------------------------------------------------------------ *\
+    Main
+\* ------------------------------------------------------------ */
+
+.main {  }
+.main-inner { background: #fff; padding: 10px 10px 0; margin: -10px -10px 0; }
+
+/* ------------------------------------------------------------ *\
+    Form Register
+\* ------------------------------------------------------------ */
+
+.form-register { margin-left: auto; width: 695px; margin-top: 25px; margin-right: 22px; }
+.form-head { font-family: "Droid Serif",serif; font-size: 14px; color: #631c1c; }
+.form-body { margin-top: 37px }
+
+.form-col { float: left; width: 305px; }
+.form-col + .form-col { margin-left: 85px; }
+
+.field { height: 38px; width: 100%; background-color: #eae0e0; outline: none; border: none; padding: 11px 7px; }
+.field:focus { border: 3px solid #ddd2d2; background: #fff; }
+	
+.form-label { color: #666; font-weight: bold; display: block; margin-bottom: 7px; }
+.form-row + .form-row { margin-top: 24px; }
+
+.date-control .field,
+.select-field { cursor: pointer; }
+
+.select-field { padding: 0 7px; }
+
+.field-textarea { height: 124px; resize: none; }
+
+.form-action { text-align: right; }
+.form-submit { border: none; background-color: #e6b409; color: #fff; font-size: 18px; padding: 18px 38px; margin-top: 25px; cursor: pointer; }
+
+/* ------------------------------------------------------------ *\
+    Footer nav
+\* ------------------------------------------------------------ */
+
+.footer-nav { margin-top: 30px; }
+.footer-nav li { float: left; width: 110px; }
+.footer-nav li + li { margin-left: 90px }
+.footer-nav a { display: block; text-decoration: none; }
+.footer-nav a:before { content: '>'; margin-right: 5px; color: #934444;}
+.footer-nav a + a { margin-top: 11px; }
+
+/* ------------------------------------------------------------ *\
+    Copyright
+\* ------------------------------------------------------------ */
+
+.copyright { background-color: #783636; color: #b17575; text-align: right; margin-top: 28px; padding: 7px 0; }
+
+/* ------------------------------------------------------------ *\
+    Type Date
+\* ------------------------------------------------------------ */
+
+.field-date::-webkit-inner-spin-button { display: none; -webkit-appearance: none; }
+.field-date::-webkit-calendar-picker-indicator{ color: transparent; background-color: transparent; width: 10%; height: 100%; position: absolute; right: 0; z-index: 2; cursor: pointer; }
+
+.field-date { position: relative; }
+.field-date:focus { outline: 1px solid #fff; background-color: #eae0e0; outline-offset: -3px; }
+
+.date-control { position: relative; } 
+.date-control:after { content: ''; width: 57px; height: 38px; background: url(images/calendar-img.png) right bottom no-repeat; position: absolute; right: 0; top: 0; pointer-events: none; } 
+
+
+/* ------------------------------------------------------------ *\
+    Select field
+\* ------------------------------------------------------------ */
+
+.form-control { position: relative; }
+
+.select-field { -webkit-appearance: none; appearance: none; }
+.select-field:focus { background-color: #eae0e0; border: none; }
+.select-control:focus { border: none; }
+.select-control:after { content: ''; width: 58px; height: 38px; background: url(images/drop-down.png) no-repeat 0 0; position: absolute; right: 0; top: 0; pointer-events: none; }

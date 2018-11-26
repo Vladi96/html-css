@@ -1,0 +1,153 @@
+/* ------------------------------------------------------------ *\
+    Fonts
+	
+	<!-- @import url(fonts/font-style.css); -->
+\* ------------------------------------------------------------ */
+
+
+/* ------------------------------------------------------------ *\
+    Reset
+\* ------------------------------------------------------------ */
+
+* { margin: 0; padding: 0; box-sizing: border-box; outline: 0; }
+
+a:before,
+a:after { box-sizing: inherit; }
+
+ul { list-style-type: none }
+
+/* ------------------------------------------------------------ *\
+    Base
+\* ------------------------------------------------------------ */
+
+body { font-family: Helvetica, sans-serif; font-size: 15px; line-height: 1.5; color: #737373; background: url(images/backgound-img.png);}
+
+h1 { font-size: 40px; font-weight: normal; color: #434343; }
+h2 { font-size: 15px; font-weight: normal; }
+
+a { color: #999; text-decoration: underline; }
+a:hover { color: #fc5f5f; text-decoration: none; }
+
+::placeholder,
+.field { color: #737373; font-family: "Helvetica Neue",sans-serif; font-weight: 500 };
+
+/* ------------------------------------------------------------ *\
+    Clear
+\* ------------------------------------------------------------ */
+
+.clear:after { content: ''; display: block; clear: both; }
+
+/* ------------------------------------------------------------ *\
+    Shell
+\* ------------------------------------------------------------ */
+
+.shell { margin: 0 auto; width: 960px; background-color: #fff; border-left: 1px solid #e1e1e1; border-right: 1px solid #e1e1e1; }
+
+
+/* ------------------------------------------------------------ *\
+    Logo
+\* ------------------------------------------------------------ */
+
+.logo { font-size: 0; text-indent: -4444px; background: url(images/logo.png) no-repeat 0 0; display: block; width: 263px; height: 36px; }
+
+/* ------------------------------------------------------------ *\
+    Header
+\* ------------------------------------------------------------ */
+
+.header { padding: 22px 35px; }
+
+/* ------------------------------------------------------------ *\
+    Main
+\* ------------------------------------------------------------ */
+
+.main { padding: 40px 50px 25px 50px; border-bottom: 1px solid #f0f0f0; }
+
+.border-gradient { height: 1px; background: linear-gradient(to right, #f5f5f5 0%, #e0e0e0 30%, #e0e0e0 50%, #e0e0e0 70%, #f5f5f5 100%);
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#f5f5f5', endColorstr='#f5f5f5', GradientType=1 ); }
+
+/* ------------------------------------------------------------ *\
+    Form account update
+\* ------------------------------------------------------------ */
+
+.field { width: 100%; padding: 10px 17px; border: 1px solid #cacaca; border-radius: 5px; font-family: Helvetica, Arial, sans-serif; font-size: 15px; }
+.field:focus { box-shadow: 0 0 6px rgba(0, 153, 204, .5); }
+
+.form-row + .form-row { margin-top: 20px; }
+
+.form-cols:after,
+.form-row:after { content: ''; display: table; clear: both; font-size: 0; }
+
+.form-label { float: left; width: 174px; text-align: right; margin-top: 10px; white-space: nowrap;}
+.form-controls { float: left; width: 416px; margin-left: 50px; }
+
+.form-cols { margin: 0 -6px; }
+.form-col { float: left; width: 100%; padding: 0 6px; }
+.form-col-1of2 { width: 50%; }
+.form-col-size1 { width: 240px; }
+.form-col-size2 { width: 145px; }
+.form-col-size3 { width: 322px; }
+
+.field-select { -webkit-appearance: none; }
+.form-select { position: relative; }
+
+.form-select:before { content: ''; position: absolute; width: 0; height: 0; border-style: solid; border-width: 0 3.5px 6px 3.5px; border-color: transparent transparent #cecece transparent; display: inline-block; right: 15px; top: 30%;  pointer-events: none; }
+
+.form-select:after { content: ''; position: absolute; width: 0; height: 0; border-style: solid; border-width: 6px 3.5px 0 3.5px; border-color: #cecece transparent transparent transparent; display: inline-block;  bottom: 30%; right: 15px; pointer-events: none; }
+
+.form-section + .form-section { margin-top: 75px; }
+.form-section-head { border-bottom: solid 2px #ddd; padding-bottom: 20px; margin-bottom: 35px; }
+
+.form-head { margin-bottom: 47px; }
+.form-container { margin: 34px 0 63px; }
+.field-textarea { height: 117px; resize: none; }
+
+.form-hint-right {  font-style: italic; color: #bcbcbc; float: left; margin-left: 20px; margin-top: 5px }
+.form-hint-bottom { font-style: italic; color: #bcbcbc; float: right; }
+
+.checkbox { margin-left: 224px }
+
+/* ------------------------------------------------------------ *\
+    Form actions
+\* ------------------------------------------------------------ */
+
+.form-actions { padding-left: 225px; margin-top: 24px; }
+
+/* ------------------------------------------------------------ *\
+    Form btn
+\* ------------------------------------------------------------ */
+
+.form-btn { padding: 16px 72px; color: #fff; border: none; border-radius: 4px; cursor: pointer; }
+.form-btn + .form-btn { margin-left: 14px; }
+
+.btn-save { background-color: #03729e; }
+.btn-submit { background-color: #0099cc; }  
+
+.form-btn:hover { color: #E74C3C; background-color: #85929E;  }
+
+
+/* ------------------------------------------------------------ *\
+    Footer
+\* ------------------------------------------------------------ */
+
+.footer { padding: 22px 0 30px 0; text-align: center; color: #5e5e5e; font-weight: bold; }
+.copyright a {  color: #5e5e5e; }
+.copyright a:hover { color: #900 }
+.copyright-dot:before { content: '.'; margin: 5px; }
+
+
+/* ------------------------------------------------------------ *\
+    Check box
+\* ------------------------------------------------------------ */
+
+.label-check-box {   display: block; position: relative; padding-left: 35px; margin-bottom: 12px; cursor: pointer; user-select: none;  }
+.label-check-box input { position: absolute; opacity: 0; cursor: pointer; height: 0; width: 0; }
+
+.checkmark { position: absolute; top: 0; left: 0; height: 15px; width: 15px; background-color: #eee; }
+
+.label-check-box input:checked ~ .checkmark { background-color: #2196F3; }
+
+.checkmark:after { content: ''; position: absolute; display: none; }
+
+.label-check-box input:checked ~ .checkmark:after { display: block; }
+
+.label-check-box .checkmark:after { left: 5px; top: 2px; width: 4px; height: 8px; border: solid white; border-width: 0 2px 2px 0; transform: rotate(45deg); }

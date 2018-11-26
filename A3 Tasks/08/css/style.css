@@ -1,0 +1,63 @@
+/* ------------------------------------------------------------ *\
+    Reset
+\* ------------------------------------------------------------ */
+
+* { margin: 0; padding: 0; box-sizing: border-box; }
+
+a:before,
+a:after { box-sizing: inherit; }
+
+/* ------------------------------------------------------------ *\
+    Site
+\* ------------------------------------------------------------ */
+
+.clear { clear: both; }
+
+.shell { margin: 0 auto; width: 880px; }
+
+/* ------------------------------------------------------------ *\
+    Containers
+\* ------------------------------------------------------------ */
+
+.container-purple { background-color: #7323a6; width: 50%; height: 330px; float: left; position: relative; }
+
+.container-rectangle { width: 50%; margin-left: auto; }
+
+.container-gray { background-color: #c9c9c9; height: 325px; padding: 20px 40px; position: relative; text-align: center; }
+
+.top-right { height: 196px; width: 440px; padding: 40px 40px 23px; }
+
+.rect-pink-container { padding: 50px 35px; background-color: #e3d3ed; position: absolute; right: 0; bottom: 0; }
+
+.container-gray-inside { position: absolute; bottom: 40px; width: 360px; }
+
+.container-rect-gray { margin-bottom: 85px; }
+
+.container-square { width: 120px; display: inline-block; }
+
+/* ------------------------------------------------------------ *\
+    Rectangles
+\* ------------------------------------------------------------ */
+
+.rect-pink { width: 160px; height: 34px; background-color: #bc5bad; }
+
+.rect-green { background-color: #23a654; height: 20px; margin-bottom: 10px; }
+
+.rect-blue { background-color: #2373a6; height: 46px; margin-bottom: 10px;}
+
+.rect-orange { background-color: #d47300; height: 45px; }
+
+.gray-rect-gray { background-color: #737373; height: 20px; margin-bottom: 10px; }
+
+.gray-rect-green { background-color: #9ea623; height: 45px; }
+
+.rect-footer { background-color: #2373a6; width: 160px; height: 42px; margin: 0 auto; }
+
+/* ------------------------------------------------------------ *\
+    Squares
+\* ------------------------------------------------------------ */
+
+.square { width: 20px; background-color: #2f2f2f; float: left; height: 20px; }
+.square + .square { margin-left: 5px; }
+
+.square.last { background-color: #737373; }

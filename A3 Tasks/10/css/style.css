@@ -1,0 +1,58 @@
+/* ------------------------------------------------------------ *\
+    Reset
+\* ------------------------------------------------------------ */
+
+* { margin: 0; padding: 0; box-sizing: border-box; }
+
+a:before,
+a:after { box-sizing: inherit; }
+
+/* ------------------------------------------------------------ *\
+    Site
+\* ------------------------------------------------------------ */
+
+.clear { clear: both; }
+
+.shell { margin: 0 auto; width: 880px; }
+
+/* ------------------------------------------------------------ *\
+    Section
+\* ------------------------------------------------------------ */
+
+.section { background-color: #c9c9c9; padding: 10px; height: 100px; position: relative; }
+
+
+/* ------------------------------------------------------------ *\
+    Left-part
+\* ------------------------------------------------------------ */
+
+.left-part { float: left; }
+
+.square { background-color: #23a654; width: 80px; height: 80px; position: relative; }
+
+.circle { width: 30px; height: 30px; border-radius: 50%; background-color: #bc5bad; position: absolute; top: 25px; left: 25px; }
+
+
+/* ------------------------------------------------------------ *\
+    Right-part Nav
+\* ------------------------------------------------------------ */
+
+.right-part { position: absolute; right: 10px; top: 50%; transform: translateY(-50%); }
+
+.rect-purple { width: 80px; height: 18px; background-color: #7323a6; float: left; }
+.rect-purple + .rect-purple { margin-left: 10px; }
+
+.clicked { position: relative; }
+
+/* ------------------------------------------------------------ *\
+    Menu
+\* ------------------------------------------------------------ */
+
+.menu { width: 225px; height: 130px; background-color: #2373a6; position: absolute; padding: 10px; top: 100%; margin-top: 10px; display: none; }
+
+.row { height: 18px; background-color: #9ea623; }
+.row + .row { margin-top: 5px; }
+
+.row.active { background-color: #ffffff; }
+
+.rect-purple.clicked .menu { display: block; }

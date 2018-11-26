@@ -1,0 +1,14 @@
+* { margin: 0; padding: 0; }
+
+.shell { margin-left: auto; margin-right: auto; width: 880px; }
+
+.box { background-color: #c9c9c9; width: 220px; padding: 30px 26px; float: left; }
+.box + .box { margin-left: 20px; }
+
+.main-square { height: 200px; background-color: #d47300; margin-bottom: 20px; }
+
+.small-left-square { background-color: #2389a6; height: 80px; width: 80px; float: left; }
+
+.small-right-rectangle { width: 120px; height: 80px; background-color: #23a654; float: right; }
+
+.clear { clear: both; }

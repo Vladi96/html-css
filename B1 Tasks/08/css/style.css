@@ -1,0 +1,139 @@
+/* ------------------------------------------------------------ *\
+    Fonts
+  
+\* ------------------------------------------------------------ */
+
+@import url(fonts/font-style.css);
+
+/* ------------------------------------------------------------ *\
+    Reset
+\* ------------------------------------------------------------ */
+
+* { margin: 0; padding: 0; box-sizing: border-box; }
+
+a:before,
+a:after { box-sizing: inherit; }
+
+
+/* ------------------------------------------------------------ *\
+    Base
+\* ------------------------------------------------------------ */
+
+body { font-family: Georgia, serif; font-size: 14px; line-height: 1.71; color: #333; background: #fff; counter-reset: number; }
+
+h1 { font-size: 60px; line-height: .83; margin-bottom: 25px } 
+h2 { font-size: 40px; line-height: 1.5; text-align: center; }
+h3 { font-size: 20px; font-weight: normal; line-height: 1.8; font-weight: bold; margin-bottom: 15px;}
+h5 { font-size: 16px;  }
+cite { font-family: "Myriad Pro", sans-serif; font-weight: bold; }
+
+ul { list-style-type: none }
+
+a { color: #222; text-decoration: underline; }
+a:hover { color: #fc5f5f; text-decoration: none; }
+
+/* ------------------------------------------------------------ *\
+    Clear
+\* ------------------------------------------------------------ */
+
+.clear { clear: both; }
+
+/* ------------------------------------------------------------ *\
+    Site
+\* ------------------------------------------------------------ */
+
+.shell { margin: 0 auto; width: 1058px; }
+ 
+ /* ------------------------------------------------------------ *\
+     Header
+ \* ------------------------------------------------------------ */
+ 
+ .header { text-align: center; padding: 123px 0 83px; }
+
+/* ------------------------------------------------------------ *\
+    Steps
+\* ------------------------------------------------------------ */
+
+.steps { text-align: center; margin-bottom: 70px; }
+.steps h2 { margin-bottom: 70px;  }
+
+.steps li { display: inline-block; width: 271px; vertical-align: text-top; margin-bottom: 28px;  }
+.steps li + li { margin-left: 110px; }
+
+.steps-footer p + p { margin-top: 28px; }
+
+
+/* ------------------------------------------------------------ *\
+    Intro main
+\* ------------------------------------------------------------ */
+
+.list-problems li { position: relative; padding-left: 80px; }
+.list-problems li:before { counter-increment: number; content: '#' counter(number); font-size: 60px; font-family: "Bebas", sans-serif; color: #ccc; position: absolute; top: -30px; left: 0; font-weight: bold; }
+/*.list-problems h3 { margin-bottom: -30px; }
+.list-problems li + li h3 { margin-top: -47px; }*/
+
+/*.intro-main li > p, 
+.list-title h3 { margin-left: 95px; }*/
+
+.intro-main li { margin-left: 45px; }
+.intro-main li + li { margin-top: 40px; }
+.intro-main li p + p { margin-top: 35px }
+
+/* ------------------------------------------------------------ *\
+    Icons
+\* ------------------------------------------------------------ */
+
+.ico-upload { background-image: url(images/upload.png); }
+.ico-database { background-image: url(images/database.png); }
+.ico-support { background-image: url(images/support.png); }
+.ico-guide { background-image: url(images/guide.png); }
+
+[class^="ico-"] { background-repeat: no-repeat; width: 70px; height: 70px; display: inline-block; float: left;  }
+
+
+/* ------------------------------------------------------------ *\
+    Intro body
+\* ------------------------------------------------------------ */
+
+.intro-body h3 { line-height: 1.6; }
+
+.intro-body li h5,
+.intro-body li p { margin-left: 85px }
+
+.intro-body li { display:inline-block; }
+.intro-body li + li { margin-top: 40px; }
+
+/* ------------------------------------------------------------ *\
+    Logos
+\* ------------------------------------------------------------ */
+
+[class^="logo-"] { display: block; background-repeat: no-repeat; color: transparent; }
+
+.logo-unitrends { background-image: url(images/logo-unitrends.png); width: 157px; height: 25px; }
+.logo-telwares { background-image: url(images/logo-telwares.png); width: 118px; height: 23px; }
+
+
+/* ------------------------------------------------------------ *\
+    Testimonial
+\* ------------------------------------------------------------ */
+
+.testimonial { background-image: url(images/quote.png); background-repeat: no-repeat; padding-top: 17px; }
+.testimonial + .testimonial { margin-top: 55px; }
+
+.testimonial p { margin-bottom: 20px; }
+
+/* ------------------------------------------------------------ *\
+    Footer
+\* ------------------------------------------------------------ */
+
+.footer { padding: 0 0 207px 30px; }
+.footer-main h2 { font-size: 25px; line-height: 1.6; }
+
+/* ------------------------------------------------------------ *\
+    Feature
+\* ------------------------------------------------------------ */
+
+.section-features { margin: 110px 0; }
+.feature { overflow: hidden; margin-top: 42px; margin-left: 30px;  }
+.feature-image { float: left; width: 80px; margin-right: 10px; }
+.feature-content { overflow: hidden; }

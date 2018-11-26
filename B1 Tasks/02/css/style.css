@@ -1,0 +1,89 @@
+/* ------------------------------------------------------------ *\
+    Reset
+\* ------------------------------------------------------------ */
+
+@import url(fonts/font-style.css);
+
+* { margin: 0; padding: 0; box-sizing: border-box; }
+
+a:before,
+a:after { box-sizing: inherit; }
+
+/* ------------------------------------------------------------ *\
+    Base
+\* ------------------------------------------------------------ */
+
+body { font-family: Arial, sans-serif; font-size: 15px; line-height: 1.4; color: #333; }
+
+h1 { font-size: 35px; font-weight: normal; line-height: ; color: #fff; }
+h2 { font-size: 24px; line-height: 1.75; color: #007cbf; margin: 34px 0 25px; }
+h3 { font-size: 19px; font-weight: normal; }
+h4 { font-size: 21px; font-weight: normal; }
+h5 { font-size: 18px; margin: 20px 0; text-transform: uppercase; }
+h6 { font-size: 15px; margin: 30px 0 20px; }
+
+a { color: #d70c0c; text-decoration: underline; }
+a:hover { color: #fc5f5f; text-decoration: none; }
+
+
+
+/* ------------------------------------------------------------ *\
+    Clear
+\* ------------------------------------------------------------ */
+
+.clear { clear: both; }
+
+/* ------------------------------------------------------------ *\
+    Shell
+\* ------------------------------------------------------------ */
+
+.shell { margin: 0 auto; width: 980px; }
+
+
+/* ------------------------------------------------------------ *\
+    Header
+\* ------------------------------------------------------------ */
+
+.header { background-image: url(images/header.jpg); background-size: cover; margin-bottom: 30px; height: 190px; padding-top: 30px; }
+.header h1 { background: #007cbf; padding: 14px 40px; font-family: "Trebuchet MS", sans-serif; }
+
+/* ------------------------------------------------------------ *\
+    Main title
+\* ------------------------------------------------------------ */
+
+.main { padding: 0 40px; }
+
+.main-title { text-align: center; }
+
+.main-title h1 { color: #333; font-size: 45px; padding-bottom: 20px; border-bottom: 9px solid #106705; }
+.main-title h1 em { color: #106705; }
+
+.main-title h4 { background-color: #ededed; padding: 10px 95px; display: inline-block; border-top: 5px solid #333; margin: 54px 0 20px; }
+.main-title h5 { margin-bottom: 10px; }
+
+/* ------------------------------------------------------------ *\
+    Banner info
+\* ------------------------------------------------------------ */
+
+.banner-info { text-align: right; }
+
+.banner-info h4 { background-color: #007cbf; padding: 15px 15px; color: #fff; margin: 50px 0 15px; }
+.banner-info h5 { margin-bottom: 10px; }
+
+
+/* ------------------------------------------------------------ *\
+    Blockquote
+\* ------------------------------------------------------------ */
+
+.quote { margin-top: 20px; border-top: 1px solid#0e83c3; }
+
+.quote p { color: #8d9ba4; font-family: Georgia, serif; }
+.quote img { float: left; margin-right: 20px }
+
+.quote-body { background: url(images/quotes.png) no-repeat 0 0; padding-left: 60px; }
+
+/* ------------------------------------------------------------ *\
+    Footer
+\* ------------------------------------------------------------ */
+
+.footer { color: #454545; font-size: 12px; padding: 160px 856px 20px 40px; background: url(images/footer.jpg) no-repeat 0 0; margin-top: 22px; }

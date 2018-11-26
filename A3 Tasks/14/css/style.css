@@ -1,0 +1,105 @@
+/* ------------------------------------------------------------ *\
+    Reset
+\* ------------------------------------------------------------ */
+
+* { margin: 0; padding: 0; box-sizing: border-box; }
+
+a:before,
+a:after { box-sizing: inherit; }
+
+/* ------------------------------------------------------------ *\
+    Site
+\* ------------------------------------------------------------ */
+
+.clear { clear: both; }
+
+.shell { margin: 100px auto; width: 880px; }
+
+
+/* ------------------------------------------------------------ *\
+    Container
+\* ------------------------------------------------------------ */
+
+.container { height: 250px; background-color: #c9c9c9; position: relative; }
+
+/* ------------------------------------------------------------ *\
+    Dots default
+\* ------------------------------------------------------------ */
+
+.dot { height: 19px; width: 19px; border-radius: 50%; position: absolute; }
+
+.green { background-color: #23a654; }
+
+.orange { background-color: #d47300; }
+
+.blue { background-color: #00a8ff; }
+
+
+/* ------------------------------------------------------------ *\
+    Dots positions 
+\* ------------------------------------------------------------ */
+
+.dot-1 { left: 125px; top: 125px; }
+.dot-2 { left: 160px; top: 166px; }
+.dot-3 { left: 216px; top: 127px; }
+.dot-4 { left: 257px; top: 169px; }
+.dot-5 { left: 278px; top: 140px; }
+.dot-6 { left: 277px; top: 67px; }
+.dot-7 { left: 289px; top: 85px; }
+.dot-8 { left: 314px; top: 88px; }
+.dot-9 { left: 324px; top: 235px; }
+.dot-10 { left: 326px; top: 187px; }
+.dot-11 { left: 351px; top: 148px; }
+.dot-12 { left: 359px; top: 178px; }
+.dot-13 { left: 368px; top: 57px; }
+.dot-14 { left: 378px; top: 6px; }
+.dot-15 { left: 383px; top: 94px; }
+.dot-16 { left: 400px; top: 74px; }
+.dot-17 { left: 420px; top: 168px; }
+.dot-18 { left: 436px; top: -10px; }
+.dot-19 { left: 450px; top: 146px; }
+.dot-20 { left: 451px; top: 205px; }
+.dot-21 { left: 480px; top: 183px; }
+.dot-22 { left: 480px; top: 30px; }
+.dot-23 { left: 485px; top: 224px; }
+.dot-24 { left: 501px; top: 100px; }
+.dot-25 { left: 528px; top: 235px; }
+.dot-26 { left: 528px; top: 203px; }
+.dot-27 { left: 535px; top: 74px; }
+.dot-28 { left: 546px; top: 138px; }
+.dot-29 { left: 550px; top: 168px; }
+.dot-30 { left: 553px; top: 16px; }
+.dot-31 { left: 577px; top: 106px; }
+.dot-32 { left: 597px; top: 148px; }
+.dot-33 { left: 614px; top: 233px; }
+.dot-34 { left: 620px; top: 61px; }
+.dot-35 { left: 622px; top: 17px; }
+.dot-36 { left: 634px; top: 194px; }
+.dot-37 { left: 652px; top: 236px; }
+.dot-38 { left: 672px; top: 203px; }
+.dot-39 { left: 672px; top: 123px; }
+.dot-40 { left: 660px; top: 82px; }
+.dot-41 { left: 665px; top: 50px; }
+.dot-42 { left: 691px; top: 53px; }
+.dot-43 { left: 663px; top: 6px; }
+.dot-44 { left: 530px; top: -35px; }
+.dot-45 { left: 630px; top: -65px; }
+.dot-46 { left: 654px; top: -25px; }
+.dot-47 { left: 157px; top: 257px; }
+.dot-48 { left: 205px; top: 320px; }
+.dot-49 { left: 240px; top: 260px; }
+.dot-50 { left: 243px; top: 310px; }
+.dot-51 { left: 285px; top: 275px; }
+.dot-52 { left: 460px; top: 280px; }
+.dot-53 { left: 520px; top: 290px; }
+.dot-54 { left: 545px; top: 330px; }
+.dot-55 { left: 570px; top: 280px; }
+.dot-56 { left: 585px; top: 350px; }
+.dot-57 { left: 620px; top: 275px; }
+
+
+
+
+
+
+

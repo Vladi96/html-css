@@ -1,0 +1,43 @@
+/* ------------------------------------------------------------ *\
+    Reset
+\* ------------------------------------------------------------ */
+
+* { margin: 0; padding: 0; box-sizing: border-box; }
+
+a:before,
+a:after { box-sizing: inherit; }
+
+/* ------------------------------------------------------------ *\
+    Site
+\* ------------------------------------------------------------ */
+
+.clear { clear: both; }
+
+.shell { margin: 0 auto; width: 880px; }
+
+/* ------------------------------------------------------------ *\
+    Container
+\* ------------------------------------------------------------ */
+
+.container { width: 205px; padding: 20px; height: 250px; float: left; background-color: #c9c9c9; position: relative; }
+
+.container + .container { margin-left: 20px; }
+
+/* ------------------------------------------------------------ *\
+    Figures
+\* ------------------------------------------------------------ */
+
+.square { width: 40px; height: 40px; background-color: #7323a6; position: absolute; top: 20px; right: 20px; }
+
+.green-rect,
+.orange-rect { height: 40px; }
+
+.orange-rect { background-color: #d47300; margin-bottom: 10px; }
+
+.green-rect { background-color: #23a654; }
+
+/* ------------------------------------------------------------ *\
+    Positions
+\* ------------------------------------------------------------ */
+
+.rect { position: absolute; bottom: 20px; width: 165px; }

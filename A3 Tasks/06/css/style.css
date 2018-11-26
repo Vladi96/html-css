@@ -1,0 +1,58 @@
+/* ------------------------------------------------------------ *\
+    Reset
+\* ------------------------------------------------------------ */
+
+* { margin: 0; padding: 0; box-sizing: border-box; }
+
+a:before,
+a:after { box-sizing: inherit; }
+
+/* ------------------------------------------------------------ *\
+    Site
+\* ------------------------------------------------------------ */
+
+.clear { clear: both; }
+
+.shell { margin: 0 auto; width: 880px; }
+
+
+/* ------------------------------------------------------------ *\
+    Section
+\* ------------------------------------------------------------ */
+
+.section { width: 292px; float: left; }
+.section + .section { margin-left: 2px; }
+
+/* ------------------------------------------------------------ *\
+    Container
+\* ------------------------------------------------------------ */
+
+.container { background-color: #c9c9c9; position: relative; height: 250px; }
+
+/* ------------------------------------------------------------ *\
+    Rectangle-container
+\* ------------------------------------------------------------ */
+
+.rect-container { position: absolute; bottom: 0; width: 292px; padding: 20px; }
+
+/* ------------------------------------------------------------ *\
+	Rectangle
+\* ------------------------------------------------------------ */
+
+.rect-orange { height: 55px; background-color: #d47300; margin-bottom: 1px; }
+
+.rect-purple {  height: 100px; background-color: #7323a6; margin-bottom: 20px; }
+
+.rect-green { height: 20px; background-color: #23a654; margin-bottom: 10px; }
+
+.rect-blue { height: 18px; background-color: #2373a6; width: 80px; margin: 0 auto; }
+
+/* ------------------------------------------------------------ *\
+    Circles
+\* ------------------------------------------------------------ */
+
+.circle { width: 50px; height: 50px; border-radius: 50%; background-color: #bc5bad; position: absolute; top: 0; margin-top: -25px; left: 50%; margin-left: -25px; }
+
+.circle.second { background-color: #23a4a6; }
+
+.circle.third { background-color: #9ea623; }

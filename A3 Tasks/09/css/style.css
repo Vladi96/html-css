@@ -1,0 +1,57 @@
+/* ------------------------------------------------------------ *\
+    Reset
+\* ------------------------------------------------------------ */
+
+* { margin: 0; padding: 0; box-sizing: border-box; }
+
+a:before,
+a:after { box-sizing: inherit; }
+
+/* ------------------------------------------------------------ *\
+    Site
+\* ------------------------------------------------------------ */
+
+.clear { clear: both; }
+
+.shell { margin: 0 auto; width: 880px; }
+
+/* ------------------------------------------------------------ *\
+    Section
+\* ------------------------------------------------------------ */
+
+.section { height: 330px; background-color: #c9c9c9; position: relative; }
+
+/* ------------------------------------------------------------ *\
+    Left-part
+\* ------------------------------------------------------------ */
+
+.left-part { background-color: #23a654; width: 40px; position: relative; height: 330px; }
+
+.circle { height: 30px; width: 30px; border-radius: 50%; background-color: #7323a6; margin: 0 auto; position: relative; }
+.circle + .circle { margin-top: 45px }
+
+.line { background-color: #353535; width: 1px; height: 330px; position: absolute; top: 0; left: 20px; }
+
+/* ------------------------------------------------------------ *\
+    central-part
+\* ------------------------------------------------------------ */
+
+.central-part { width: 330px; position: absolute; bottom: 0; left: 115px; }
+
+.rect-pink { width: 160px; height: 38px; margin: 0 auto; background-color: #bc5bad; }
+
+.white-box {  padding: 58px 20px 0; background-color: #ffffff; margin-top: 70px; }
+
+.rect-gray { height: 20px; background-color: #737373; margin-bottom: 10px; }
+
+.rect-green { height: 44px; background-color: #9ea623; }
+
+/* ------------------------------------------------------------ *\
+    Footer
+\* ------------------------------------------------------------ */
+
+.rect-footer { margin:0 auto; width: 160px; height: 44px; background-color: #2373a6; margin-top: 20px; }
+
+
+
+

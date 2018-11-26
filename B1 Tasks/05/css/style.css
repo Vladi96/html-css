@@ -1,0 +1,148 @@
+/* ------------------------------------------------------------ *\
+    Fonts
+    
+    <!-- @import url(fonts/font-style.css); -->
+\* ------------------------------------------------------------ */
+
+
+/* ------------------------------------------------------------ *\
+    Reset
+\* ------------------------------------------------------------ */
+
+* { margin: 0; padding: 0; box-sizing: border-box; }
+
+a:before,
+a:after { box-sizing: inherit; }
+
+ul { list-style-type: none }
+
+/* ------------------------------------------------------------ *\
+    Base
+\* ------------------------------------------------------------ */
+
+body { font-family: "Trebuchet MS", sans-serif; font-size: 16px; line-height: 1.375; color: #222; background: #fff; }
+
+h1 { font-size: 30px; font-weight: normal; line-height: 1.66; }
+h2 { font-size: 18px; font-weight: normal; }
+h3 { font-size: 20px; font-weight: normal; line-height: 2;  }
+
+a { color: #ceb205; text-decoration: underline; }
+a:hover { text-decoration: none; }
+
+/* ------------------------------------------------------------ *\
+    Clear
+\* ------------------------------------------------------------ */
+
+.clear { clear: both; }
+
+/* ------------------------------------------------------------ *\
+    Site
+\* ------------------------------------------------------------ */
+
+.shell { margin: 0 auto; width: 768px; }
+
+/* ------------------------------------------------------------ *\
+    Header
+\* ------------------------------------------------------------ */
+
+.header { padding: 19px 5px 10px 30px; }
+
+/* ------------------------------------------------------------ *\
+    Logo
+\* ------------------------------------------------------------ */
+
+.logo { background-image: url(images/logo.png); display: inline-block; width: 109px; height: 46px; font-size: 0; text-indent: -4000px; }
+
+/* ------------------------------------------------------------ *\
+    Nav
+\* ------------------------------------------------------------ */
+
+.nav ul { float: right; margin: 15px 0; }
+.nav li { float: left; }
+.nav li + li {  margin-left: 20px; }
+
+.nav a { padding: 5px 10px 0px; text-decoration: none; color: #222; position: relative; }
+
+.nav a:before,
+.nav a:after { position: absolute; top: 100%; left: 0; width: 100%; height: 2px; background: #b39784; content: ''; transition: transform 0.1s; transform: scale(0); }
+
+.nav a:after { opacity: 0; transition: top 0.3s, opacity 0.3s, transform 0.3s; }
+
+.nav a:hover:before,
+.nav a:hover:after,
+.nav a:focus:before,
+.nav a:focus:after { transform: scale(1); }
+
+.nav a:hover:after,
+.nav a:focus:after { top: 0%; opacity: 1; }
+
+
+/* ------------------------------------------------------------ *\
+    Intro
+\* ------------------------------------------------------------ */
+
+.intro { background-image: url(images/banner.jpg); padding: 117px 14px 120px 43px; background-repeat: no-repeat; border-bottom: 4px solid #e7c927; }
+
+.intro p { font-size: 22px; color: #fff; line-height: 1.45; }
+
+/* ------------------------------------------------------------ *\
+    Main title
+\* ------------------------------------------------------------ */
+
+.main-title { text-align: center; }
+
+.main-title h1 { background-color: #e5e5e5; padding: 32px 0; }
+.main-title h2 { padding: 25px 0; background-color: #eee; border-bottom: 1px solid #b7b7b7; }
+
+/* ------------------------------------------------------------ *\
+    Section Summary
+\* ------------------------------------------------------------ */
+
+.section-summary { padding: 45px; }
+.section-summary p { margin-top: 10px; }
+
+/* ------------------------------------------------------------ *\
+    Section Machine
+\* ------------------------------------------------------------ */
+
+.section-machine { padding: 40px }
+.section-machine { border-top: 1px solid #eee; }
+.section-machine .section-image { float: left; }
+
+.section-text { float: left; width: 330px; margin-left: 34px }
+.section-text p { margin-bottom: 22px }
+
+
+.section-text a { background-color: #fcd901; padding: 10px 32px; border-radius: 7px; color: #222; text-decoration: none; }
+.section-text a:hover { border-radius: 50%; color: #2e4a86; background-color: #8e8086; }
+
+
+/* ------------------------------------------------------------ *\
+    Section project
+\* ------------------------------------------------------------ */
+
+.section-projects { padding: 48px }
+.section-projects { background-color: #eee; }
+.container-project { background-color: #fff; padding: 15px 14px 30px 14px; }
+.container-project h3 { text-transform: uppercase; }
+
+/* ------------------------------------------------------------ *\
+    Footer
+\* ------------------------------------------------------------ */
+
+.footer ul { padding: 28px 46px; }
+.footer { background-color: #e5e5e5; }
+.footer-logo { font-size: 0; background-image: url(images/footer-logo.png); display: inline-block; width: 81px; height: 34px; margin-bottom: 10px; }
+.footer li a { color: #222; }
+
+/* ------------------------------------------------------------ *\
+    Copyright
+\* ------------------------------------------------------------ */
+
+
+.copyright { padding: 44px 43px; }
+.copyright p { margin-top: 5px }
+.copyright a { text-decoration:none; color: #222; }
+
+.copyright li { display: inline-block; }
+.copyright li + li:before { content: "| "; }

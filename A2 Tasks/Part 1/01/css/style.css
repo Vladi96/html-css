@@ -1,0 +1,18 @@
+body{margin: 0; padding: 0;}
+
+.shell { margin: 0 auto; width: 880px; }
+
+.section { margin: 20px 50px; background-color: #c9c9c9; padding: 40px 0; }
+.section > .blue { margin: auto; }
+
+.orange,
+.blue,
+.green { height: 200px; width: 200px; margin: 0 40px; }
+
+.orange { float: left; background-color: #d47300; }
+
+.blue { background-color: #2389a6; }
+
+.green { background-color: #23a654; float: right; }	
+
+.clear { clear: both; }

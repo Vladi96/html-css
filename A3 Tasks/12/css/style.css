@@ -1,0 +1,37 @@
+/* ------------------------------------------------------------ *\
+    Reset
+\* ------------------------------------------------------------ */
+
+* { margin: 0; padding: 0; box-sizing: border-box; }
+
+a:before,
+a:after { box-sizing: inherit; }
+
+/* ------------------------------------------------------------ *\
+    Site
+\* ------------------------------------------------------------ */
+
+.clear { clear: both; }
+
+.shell { margin: 0 auto; width: 880px; }
+
+
+/* ------------------------------------------------------------ *\
+    Section
+\* ------------------------------------------------------------ */
+
+.section { background-color: #c9c9c9; height: 505px; position: relative; }
+
+/* ------------------------------------------------------------ *\
+    Container
+\* ------------------------------------------------------------ */
+
+.container { position: absolute; background-color: #e4e4e4; width: 440px; height: 204px; top: 50%; margin-top: -102px; padding: 20px 20px 40px; }
+
+.rect-big-green { height: 36px; background-color: #9ea623; }
+
+.rect-small-green { height: 1px; width: 63px; background-color: #9ea623; margin: 10px 0; }
+
+.rect-purple { height: 88px; background-color: #bc5bad; }
+
+.rect-blue { width: 160px; height: 44px;  background-color: #2373a6; position: absolute; bottom: -22px; right: -20px }

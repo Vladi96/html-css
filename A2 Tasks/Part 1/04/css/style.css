@@ -1,0 +1,18 @@
+
+* { margin: 0; padding: 0; }
+
+.shell { margin-left: auto; margin-right: auto; width: 880px; box-sizing: border-box; }
+
+.box { width: 240px; padding: 20px; background-color: #c9c9c9; float: left; margin: 10px; }
+
+.boxes { margin: -10px; }
+
+.square { background-color: #2389a6; width: 80px; height: 80px; float: left; }
+
+.rectangle { background-color: #d47300; width: 140px; height: 80px; float: right; }
+
+.reverse .square { float: right; }
+
+.reverse .rectangle { float: left; }
+
+.clear { clear: both; }

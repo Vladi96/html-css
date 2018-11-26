@@ -1,0 +1,45 @@
+/* ------------------------------------------------------------ *\
+    Reset
+\* ------------------------------------------------------------ */
+
+* { margin: 0; padding: 0; box-sizing: border-box; }
+
+a:before,
+a:after { box-sizing: inherit; }
+
+/* ------------------------------------------------------------ *\
+    Site
+\* ------------------------------------------------------------ */
+
+.clear { clear: both; }
+
+.shell { margin: 0 auto; width: 880px; }
+
+/* ------------------------------------------------------------ *\
+    Container 
+\* ------------------------------------------------------------ */
+
+.container { width: 205px; padding: 20px; height: 250px; float: left; background-color: #c9c9c9; position: relative; }
+
+.container + .container { margin-left: 20px; }
+
+/* ------------------------------------------------------------ *\
+    First, second, thirth and fourth element
+\* ------------------------------------------------------------ */
+
+.first-element { width: 165px; height: 40px; background-color: #d47300; }
+
+.second-element { width: 165px; height: 80px; background-color: #23a654; }
+
+.third-element { width: 40px; height: 100px; background-color: #7323a6; }
+
+.fourth-element { width: 70px; height: 40px; background-color: #d47300; float: left; }
+.fourth-element + .fourth-element { float: right; }
+
+.box { width: 165px; }
+
+/* ------------------------------------------------------------ *\
+	Center
+\* ------------------------------------------------------------ */
+
+.container .center { position: absolute; top: 50%; left: 50%; transform: translate(-50%, -50%); }

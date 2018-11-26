@@ -1,0 +1,5 @@
+@font-face { font-family: 'Helvetica 73 Bold Extended'; font-style: normal; font-weight: normal; src: local('Helvetica 73 Bold Extended'), url('HelveticaNeue-BoldExt.woff') format('woff'); }
+
+@font-face { font-family: 'Helvetica'; font-style: normal; font-weight: normal; src: local('Helvetica'), url('Helvetica.woff') format('woff'); }
+
+@font-face { font-family: 'Helvetica Neue'; font-style: normal; font-weight: normal; src: local('Helvetica Neue'), url('HelveticaNeue.woff') format('woff'); }

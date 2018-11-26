@@ -1,0 +1,326 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>5</title>
+
+	<link rel="stylesheet" type="text/css" href="css/style.css">
+
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+	<script src="js/app.js"></script>  		
+
+	<meta charset="utf-8">
+</head>
+<body>
+	<div class="shell">
+		<header class="header">
+			<p>Header Placeholder</p>
+		</header><!-- /.header -->
+
+		<div class="main">
+			<div class="main-title">
+				<h1>Register New Household</h1>
+
+				<p>Nunc eu ullamcorper orci. Quisque eget odio ac lectus vestibulum faucibus eget in metus.</p>
+			</div><!-- /.main-title -->
+
+			<div class="form-register">
+				<form method="post" action="">					
+					<div class="form-head">
+						<h2>Principal Recipient</h2>
+
+						<p>Nunc eu ullamcorper orci. Quisque eget odio ac lectus vestibulum faucibus eget in metus.</p>
+					</div><!-- /.form-head -->
+
+					<div class="form-body">
+						<div class="form-section">
+							<div class="form-row">
+								<label class="form-label" for="first-name">First Name: <span class="form-asterisk">*</span></label>
+
+								<div class="form-controls">
+									<input type="text" class="field" name="first-name" id="first-name" placeholder="Please enter first or primary name">
+								</div><!-- /.form-controls -->
+
+								<span class="form-hint">Help text should go here, if needed.</span>
+							</div><!-- /.form-row -->
+
+							<div class="form-row">
+								<label class="form-label" for="second-name">Second Name:</label>
+
+								<div class="form-controls">
+									<input type="text" class="field" name="second-name" id="second-name" placeholder="Please enter second name (if applicable)">
+								</div><!-- /.form-controls -->
+
+								<span class="form-hint">Help text should go here, if needed.</span>
+							</div><!-- /.form-row -->
+
+							<div class="form-row">
+								<label class="form-label" for="last-name">Last Name:</label>
+
+								<div class="form-controls">
+									<input type="text" class="field" name="last-name" id="last-name" placeholder="Please enter last name (if applicable)">
+								</div><!-- /.form-controls -->
+
+								<span class="form-hint">Help text should go here, if needed.</span>
+							</div><!-- /.form-row -->	
+
+							<div class="form-row row-bd">
+								<div class="form-controls clear">
+									<div class="form-col">
+										<label class="form-label" for="date-bd">Date of Birth: <span class="form-asterisk">*</span></label>
+
+										<div class="form-controls field-date">
+											<div class="form-col">
+												<input type="text" name="month" id="date-bd" class="field field-sm" placeholder="XX">
+											</div><!-- /.form-col field-sm -->
+
+											<div class="form-col">
+												<input type="text" name="month" id="day-bd" class="field field-sm" placeholder="XX">
+											</div><!-- /.form-col field-sm -->
+
+											<div class="form-col">
+												<input type="text" name="month" id="year-bd" class="field field-md-big" placeholder="XXXX">
+											</div><!-- /.form-col field-sm -->
+										</div><!-- /.form-col -->	
+									</div><!-- /.form-controls -->
+									
+									<div class="form-col form-col-age">
+										<label class="form-label" for="age-bd">Age: <span class="form-asterisk">*</span></label>
+										
+										<div class="form-controls">
+											<input type="text" name="age" id="age-bd" class="field field-md" placeholder="XXX">
+										</div><!-- /.form-controls -->
+									</div><!-- /.form-col -->
+								</div><!-- /.form-controls -->
+
+								<span class="form-hint">Help text should go here, if needed.</span>
+							</div><!-- /.form-row -->
+
+							<div class="form-row field-size1">
+								<label for="gender" class="form-label">Gender: <span class="form-asterisk">*</span></label>
+
+								<div class="form-controls ">
+									<div class="field-select-arrow ">
+										<select class="field field-select " id="gender">
+											<option disabled selected>Please select gender</option>
+
+											<option>1</option>
+
+											<option>2</option>
+
+											<option>3</option>
+										</select>
+									</div>
+								</div><!-- /.form-controls -->
+								
+								<span class="form-hint">Help text should go here, if needed.</span>
+							</div><!-- /.form-row -->
+
+							<div class="form-row field-size1">
+								<label for="position" class="form-label">Position in Household: <span class="form-asterisk">*</span></label>
+
+								<div class="form-controls">
+									<div class="field-select-arrow">
+										<select class="field field-select " id="position">
+											<option disabled selected>Please select position in household</option>
+
+											<option>1</option>
+
+											<option>2</option>
+
+											<option>3</option>
+										</select>
+									</div>
+								</div><!-- /.form-controls -->
+
+								<span class="form-hint">Help text should go here, if needed.</span>
+							</div><!-- /.form-row -->
+
+							<div class="form-row field-size1">
+								<label for="marital" class="form-label">Marital Status: <span class="form-asterisk">*</span></label>
+
+								<div class="form-controls">
+									<div class="field-select-arrow ">
+										<select class="field field-select " id="marital">
+											<option disabled selected>Please select marital Status</option>
+
+											<option>1</option>
+
+											<option>2</option>
+
+											<option>3</option>
+										</select>
+									</div>
+								</div><!-- /.form-controls -->
+
+								<span class="form-hint">Help text should go here, if needed.</span>
+							</div><!-- /.form-row -->
+
+							<div class="form-row field-size1">
+								<label for="type" class="form-label">ID Type: <span class="form-asterisk">*</span></label>
+
+								<div class="form-controls">
+									<div class="field-select-arrow ">
+										<select class="field-select field" id="type">
+											<option disabled selected>Please select ID type</option>
+
+											<option>1</option>
+
+											<option>2</option>
+
+											<option>3</option>
+										</select>
+									</div>
+
+									<div class="form-controls">
+										<input type="text" name="id-number" class="field ">
+									</div>
+								</div><!-- /.form-controls -->
+								
+								<span class="form-hint">Help text should go here, if needed.</span>
+							</div><!-- /.form-row -->
+						</div><!-- /.form-section -->
+
+						<div class="form-section">
+							<div class="form-row">
+								<label class="form-label">Is the Principal Recipient Unemployed: <span class="form-asterisk">*</span></label>
+
+								<div class="form-controls view01">
+									<ul class="list-checkboxes">
+										<li>
+											<div class="radio-box">
+												<label>Yes
+													<input type="radio" checked="checked" name="unemployed">
+														
+													<span></span>
+												</label>
+											</div><!-- /.radio-box -->
+										</li>
+
+										<li>
+											<div class="radio-box">
+												<label>No
+													<input type="radio" name="unemployed">
+													
+													<span></span>
+												</label>
+											</div><!-- /.radio-box -->
+										</li>
+									</ul>
+								</div>
+							</div><!-- /.form-row -->
+
+							<div class="form-row">
+								<div class="checkbox-list">
+									<label class="form-label">What is the Health Status of the Principal Recipient? <span class="form-asterisk">*</span></label>
+
+									<ul class="list-check-box">
+										<li>
+											<div class="checkbox">
+												<label>Able-Bodied
+													<input  type="checkbox" checked>
+
+													<span></span>
+												</label>
+											</div><!-- /.checkbox -->
+										</li>
+
+										<li>
+											<div class="checkbox">
+												<label>Chronically Ill
+													<input type="checkbox">
+
+													<span></span>
+												</label>
+											</div><!-- /.checkbox -->
+										</li>
+
+										<li>
+											<div class="checkbox">
+												<label>Disabled
+													<input type="checkbox">
+
+													<span></span>
+												</label>
+											</div><!-- /.checkbox -->
+										</li>
+
+										<li>
+											<div class="checkbox">
+												<label>HIV Positive
+													<input type="checkbox">
+
+													<span></span>
+												</label>	
+											</div><!-- /.checkbox -->
+										</li>
+									<ul>
+								</div><!-- /.checkbox -->
+							</div><!-- /.form-row -->
+
+							<div class="form-row">
+								<label class="form-label">Attending School? <span class="form-asterisk">*</span></label>
+
+								<div class="form-controls view01">
+									<ul class="list-checkboxes">
+										<li>
+											<div class="radio-box">
+												<label>Yes
+													<input type="radio" checked="checked" name="attending">
+														
+													<span></span>
+												</label>
+											</div><!-- /.radio-box- -->
+										</li>
+
+										<li>
+											<div class="radio-box">
+												<label>No
+													<input type="radio" name="attending">
+													
+													<span></span>
+												</label>
+											</div>
+										</li>
+									</ul>
+								</div>
+							</div><!-- /.form-row -->
+
+							<div class="form-row">
+								<label class="form-label" for="meals">School Meals Programme: <span class="form-asterisk">*</span></label>
+
+								<div class="form-controls">
+									<div class="field-select-arrow">
+										<select class="field-select field" id="meals">
+											<option disabled selected>Please select school means status</option>
+
+											<option>1</option>
+
+											<option>2</option>
+
+											<option>3</option>
+										</select>
+									</div>
+								</div><!-- /.form-controls -->
+								
+								<span class="form-hint">Help text should go here, if needed.</span>
+							</div><!-- /.form-row -->
+						</div><!-- /.form-seltion -->
+					</div><!-- /.form-body -->		
+
+					<div class="form-actions">
+						<button class="form-btn btn-green" type="submit">« EDIT ASSISTANCE STATUS</button>
+
+						<button class="form-btn btn-gray" type="submit">CLEAR FORM</button>
+
+						<button class="form-btn btn-green" type="submit">CONTINUE TO ADDITIONAL MEMBERS »</button>
+					</div><!-- /.form-actions -->
+				</form>	
+			</div><!-- /.form-register -->
+		</div><!-- /.main -->
+
+		<footer class="footer">
+			<p>Footer Placeholder</p>
+		</footer><!-- /.footer -->
+	</div><!-- /.shell -->
+</body>
+</html>

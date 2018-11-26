@@ -1,0 +1,113 @@
+/* ------------------------------------------------------------ *\
+    Fonts
+	
+	<!-- @import url(fonts/font-style.css); -->
+\* ------------------------------------------------------------ */
+
+
+/* ------------------------------------------------------------ *\
+    Reset
+\* ------------------------------------------------------------ */
+
+* { margin: 0; padding: 0; box-sizing: border-box; }
+
+a:before,
+a:after { box-sizing: inherit; }
+
+ul { list-style-type: none }
+
+/* ------------------------------------------------------------ *\
+    Base
+\* ------------------------------------------------------------ */
+
+body { font-family: Arial, sans-serif; font-size: 13px; line-height: 1.57; color: #666; background: #fff; }
+
+a { color: #66952b ; text-decoration: underline; }
+a:hover { color: #999; text-decoration: none; }
+
+/* ------------------------------------------------------------ *\
+    Clear
+\* ------------------------------------------------------------ */
+
+.clear:after { content: ''; display: block; clear: both; }
+
+/* ------------------------------------------------------------ *\
+    Shell
+\* ------------------------------------------------------------ */
+
+.shell { margin: 0 auto; width: 960px; }
+
+
+/* ------------------------------------------------------------ *\
+    Footer & Header
+\* ------------------------------------------------------------ */
+
+.footer,
+.header { padding: 80px 0; text-align: center; background-color: #979797; color: #fff; font-size: 20px; }
+
+/* ------------------------------------------------------------ *\
+    Container
+\* ------------------------------------------------------------ */
+
+.container { padding: 40px 0 50px; }
+
+
+/* ------------------------------------------------------------ *\
+    Check & Info       
+\* ------------------------------------------------------------ */
+
+.ico-check { background: url(images/check.png) no-repeat 0 0; width: 23px; height: 19px; display: inline-block; }
+
+.ico-info { background: url(images/info.png) no-repeat 0 0; width: 19px; height: 19px; float: right; }
+
+/* ------------------------------------------------------------ *\
+    Table plans
+\* ------------------------------------------------------------ */
+
+.table-plans table { width: 100%; border-radius: 4px; border: 1px solid #d6d6ca; border-spacing: 0; }
+.table-plans thead { background-color: #3b3b3b; font-size: 18px; color: #fff; }
+.table-plans th { padding: 15px; }
+.table-plans th + th { border-left: #c6c6bc; }
+
+.table-plans tbody tr:nth-child(odd) { background-color: #edede1; }
+.table-plans tbody tr:nth-child(even) { background-color: #f1f1e7; }
+
+.table-plans td { padding: 5px 15px 5px; color: #666;  border-bottom: 1px solid #ccccb0; font-weight: 700 }
+.table-plans td + td { text-align: center; }
+
+.category tr:first-child td { color: #7aa402; }
+.category + .category tr:first-child td,
+.title td { padding: 20px 15px 15px; }
+.category { background-color: #edede1; }
+
+.table-plans td:first-child { border-right: 1px solid #c6c6bc; }
+
+.holder p { float: left; }
+
+.col-1 { width: 225px; background-color: #fff; }
+.col { width: 240px; }
+
+.table-plans tbody td:first-child,
+.table-plans th:first-child { background: rgba( 255,255,255, 0.3); }
+
+.table-plans tfoot { background-color: #f4f4ed; }
+
+/* ------------------------------------------------------------ *\
+    Active
+\* ------------------------------------------------------------ */
+
+.title-active { background-color: #7aa402; position: relative; border-bottom: 1px solid #628302; }
+.title-active:before { content: ''; position: absolute; background-color: #7aa402; width: 100%; top: -10px; padding: 5px 0; left: 0; border-radius: 4px 4px 0px 0px;box-shadow:0px -4px 5px 1px rgba(204,204,204,0.8); }
+.active { background: rgba( 255,255,255, 0.5); box-shadow: -3px 0px 2px 0px rgba(193,193,185,1), 4px 0px 2px 0px rgba(193,193,185,1); }
+
+.footer-active { position: relative; }
+.footer-active:after { position: absolute; content: ''; background-color: #fff; padding: 4px 0; bottom: -8px; left: 0; width: 100%; box-shadow:0px 4px 5px 1px rgba(204,204,204,0.8); border-radius: 4px; }
+
+/* ------------------------------------------------------------ *\
+    Btn
+\* ------------------------------------------------------------ */
+
+.btn-sign-up { border-radius: 4px; border: 1px solid #c29a25; color: #996600; font-weight: bold; display: inline-block; text-transform: uppercase; padding: 11px 55px; text-decoration: none; margin: 18px ;}
+
+.btn-sign-up { background-image: linear-gradient(30deg, #fec826 50%, transparent 50%); background-size: 500px; background-repeat: no-repeat; transition: background 400ms ease-in-out; }
+.btn-sign-up:hover { background-position: 100%; color: #c266d3; background-color: #f99000; border: 1px solid #999;}

@@ -1,0 +1,33 @@
+* { margin: 0; padding: 0; }
+
+.clear { clear: both; }
+
+.shell { margin: 0 auto; width: 880px; }
+
+.center-circle { height: 340px; width: 340px; border-radius: 50%; background-color: #c9c9c9; position: relative; margin: 0 auto; z-index: 0; }
+
+.square { width: 80px; height: 80px; background-color: #23a654; position: absolute; left: 50%; margin-left: -40px; top: 50%; margin-top: -40px; }
+
+.circle { width: 50px; height: 50px; border-radius: 50%; background-color: #bc5bad; z-index: 3; float: right; }
+
+.orange-rect { width: 160px; height: 20px; background-color: #d47300; float: left; margin: 15px 20px ; }
+
+.right-side .circle { float: left; background-color: #7323a6; }
+.right-side .orange-rect { float: right; }
+
+.first-line,
+.second-line,
+.third-line { position: absolute; }
+
+.first-line { top: 25%; margin-top: -25px; }
+.second-line { top: 50%; margin-top: -25px; }
+.third-line { top: 75%; margin-top: -25px; }
+
+.left-side .first-line,
+.left-side .third-line { left: -200px; }
+.left-side .second-line { left: -225px; }
+
+.right-side .first-line,
+.right-side .third-line { right: -200px; }
+
+.right-side .second-line { right: -225px; }

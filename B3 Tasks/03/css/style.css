@@ -1,0 +1,134 @@
+/* ------------------------------------------------------------ *\
+    Fonts
+	
+	<!-- @import url(fonts/font-style.css); -->
+\* ------------------------------------------------------------ */
+
+
+/* ------------------------------------------------------------ *\
+    Reset
+\* ------------------------------------------------------------ */
+
+* { margin: 0; padding: 0; box-sizing: border-box; }
+
+a:before,
+a:after { box-sizing: inherit; }
+
+ul { list-style-type: none }
+
+/* ------------------------------------------------------------ *\
+    Base
+\* ------------------------------------------------------------ */
+
+body { font-family: Trebuchet MS, sans-serif; font-size: 14px; line-height: 1.2; color: #6a7178; background: #fff; }
+
+h1 { font-size: 29px; font-weight: normal; color: #316775; }
+h2 { font-size: 31px; font-weight: normal; }
+h3 { font-size: 21px; font-weight: normal; color: #316775; }
+
+a { color: #000 ; text-decoration: underline; }
+a:hover { color: #fc5f5f; text-decoration: none; }
+
+/* ------------------------------------------------------------ *\
+    Clear
+\* ------------------------------------------------------------ */
+
+.clear:after { content: ''; display: block; clear: both; }
+
+/* ------------------------------------------------------------ *\
+    Shell
+\* ------------------------------------------------------------ */
+
+.shell { margin: 0 auto; width: 940px; }
+
+
+/* ------------------------------------------------------------ *\
+    Header
+\* ------------------------------------------------------------ */
+
+.header,
+.footer { padding: 90px; text-align: center; color: #fff; background-color: #979797; font-size: 20px; }
+
+
+/* ------------------------------------------------------------ *\
+    Container
+\* ------------------------------------------------------------ */
+
+.container { border: 1px solid #eee; background-color: #fdfdfd; margin: 17px 0 27px; }
+.container-head { background-color: #e9eaea; font-size: 13px; padding: 4px 9px; color: #979799; }
+.container-inner { padding: 0 30px 38px; }
+
+.container-footer { padding-top: 30px; }
+.side-left { float: left; width: 50%; }
+
+.side-right { float: left; width: 50%; text-align: right; }
+.side-right h2 { margin-bottom: 24px; }
+.side-right p { margin-top: 13px; }
+
+.table-title { padding: 34px 0 28px; }
+
+
+/* ------------------------------------------------------------ *\
+    Table cart
+\* ------------------------------------------------------------ */
+
+.table-cart table { border-collapse: collapse; width: 100%; }
+
+.table-cart tr { border-top: 1px solid #d3cbc7; border-bottom: 1px solid #d3cbc7; }
+.table-cart tr + tr { border-bottom: 1px solid #d3cbc7; }
+
+.table-cart th { padding: 12px 0; text-align: left; }
+.table-cart th + th { text-align: right; }
+
+.table-cart td { padding: 16px 0; }
+.table-cart td + td { text-align: right; padding:  }
+
+.table-cart .col-2 { width: 75px }
+.table-cart .col-3 { width: 107px; }
+.table-cart .col-4 { width: 80px; }
+
+.price-total,
+.price-item { color: #e26735; font-size: 15px; }
+
+/* ------------------------------------------------------------ *\
+    About item
+\* ------------------------------------------------------------ */
+
+.remove-item { background: url(images/remove-item.png) no-repeat 0 0; width: 30px; height: 30px; float: left; margin: 10px 0; }
+.item-img { width: 37px; height: 52px; float: left; margin: 0 65px 0 50px; }
+.about-item p { float: left; }
+
+/* ------------------------------------------------------------ *\
+    Form quantity
+\* ------------------------------------------------------------ */
+
+.form-controls { width: 55px; margin-left: auto; }
+.field { width: 100%; text-align: center; box-shadow: inset 1px 1px 0px 0px rgba(146,146,146,1); outline: none; border: 1px solid #e3e3e3;}
+
+.field::-webkit-inner-spin-button, 
+.field::-webkit-outer-spin-button { -webkit-appearance: none; margin: 0; }
+
+
+/* ------------------------------------------------------------ *\
+    Section
+\* ------------------------------------------------------------ */
+
+
+
+/* ------------------------------------------------------------ *\
+    Blockquote
+\* ------------------------------------------------------------ */
+
+.blockquote { margin-top: 30px; position: relative; text-indent: 30px; }
+.blockquote:before { content: ''; background: url(images/quotes-up.png) no-repeat 0 0; width: 20px; height: 16px; position: absolute; top: -5px; left: 0; }
+.blockquote:after { content: ''; background: url(images/quotes-down.png) no-repeat 0 0; width: 20px; height: 16px; position: absolute; bottom: -5px; left: 65px; }
+
+
+/* ------------------------------------------------------------ *\
+    Btn 
+\* ------------------------------------------------------------ */
+
+.btn { color: #fff; text-transform: uppercase; border-radius: 20px; text-decoration: none; display: inline-block; }
+
+.btn-update { background-color: #ffbb48; padding: 6px 36px; box-shadow: 0px 0px 0px 2px rgba(235,235,235,1); }
+.btn-check-out { background-color: #88d145; padding: 11px 60px; border: 1px solid #a2b966; margin-left: 12px; box-shadow: 0px 0px 0px 5px rgba(235,235,235,1); }

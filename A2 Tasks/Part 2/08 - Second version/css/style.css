@@ -1,0 +1,22 @@
+* { margin: 0; padding: 0; }
+
+.clear { clear: both; }
+
+.shell { margin: 0 auto; width: 1030px; }
+
+.section { background-color: #c9c9c9; padding: 20px; position: relative; }
+
+.container-left { float: left; }
+.container-right { float: right; }
+
+.container-left,
+.container-right { padding-top: 40px; }
+
+.left-rectangle { width: 100px; height: 40px; background-color: #23a654; float: left; }
+.right-rectangle { width: 200px; height: 40px; background-color: #d47300; float: left; }
+
+.left-rectangle + .left-rectangle,
+.right-rectangle + .right-rectangle { margin-left: 10px; }
+
+.square { width: 80px; height: 80px; background-color: #2389a6; }
+.square { position: absolute; left: 50%; top: 50%; margin-left: -40px; margin-top: -40px; }

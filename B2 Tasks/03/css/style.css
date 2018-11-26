@@ -1,0 +1,170 @@
+/* ------------------------------------------------------------ *\
+    Fonts
+    	
+	<!-- @import url(fonts/font-style.css); -->
+\* ------------------------------------------------------------ */
+    
+    
+/* ------------------------------------------------------------ *\
+        Reset
+\* ------------------------------------------------------------ */
+
+* { margin: 0; padding: 0; box-sizing: border-box; }
+
+a:before,
+a:after { box-sizing: inherit;  }
+
+ul { list-style-type: none }
+
+/* ------------------------------------------------------------ *\
+	Base
+\* ------------------------------------------------------------ */
+
+body { font-family: Tahoma, sans-serif; font-size: 11px; line-height: 1.4; color: #989898; background: #fff; }
+
+h1 { font-size: 36px; font-weight: normal; color: #4d4d4d; }
+h2 { font-size: 16px; font-weight: normal; color: #fff; text-transform: uppercase; }
+h3 { font-size: 18px; font-weight: normal; color: #989898; text-transform: uppercase; font-family: "Gotham Book", sans-serif;  }
+
+a { color: #4d4d4d; text-decoration: underline; }
+a:hover { color: #fc5f5f; text-decoration: none; }
+
+.hidden { display: none; }
+
+/* ------------------------------------------------------------ *\
+	Clear
+\* ------------------------------------------------------------ */
+
+.clear:after { content: ''; display: block; clear: both; }
+
+/* ------------------------------------------------------------ *\
+	Shell
+\* ------------------------------------------------------------ */
+
+.shell { margin: 0 auto; width: 490px; }
+
+
+/* ------------------------------------------------------------ *\
+    Logo
+\* ------------------------------------------------------------ */
+
+.logo { font-size: 0; text-indent: -4444px; background: url(images/logo.png) no-repeat 0 0; display: block; margin: 0 auto; width: 195px; height: 54px; }
+
+
+/* ------------------------------------------------------------ *\
+    Header
+\* ------------------------------------------------------------ */
+
+.header { padding-top: 20px; border-bottom: 1px solid #000; }
+
+/* ------------------------------------------------------------ *\
+    Header nav
+\* ------------------------------------------------------------ */
+
+.header-main { margin: 60px -40px 0 -4px; text-transform: uppercase; }
+.header-main a { text-decoration: none; }
+.header-aside { float: left; margin-right: 97px; }
+.nav li { float: left; font-size: 14px; font-family: "Gotham Book", sans-serif;  }
+.nav li + li { margin-left: 35px; } 
+.nav ul { padding-top: 20px; }
+.nav a { color: #e0e0e0; }
+
+/* ------------------------------------------------------------ *\
+    Active
+\* ------------------------------------------------------------ */
+
+.header .active { position: relative; }
+.header .active a { color: #4d4d4d; }
+.header .active a:after { content: ''; display: block; width: 0; height: 0; border-style: solid; border-width: 0 11px 12px 11px; border-color: transparent transparent #4d4d4d transparent; position: absolute; left: 50%; transform: translateX(-50%); }
+
+/* ------------------------------------------------------------ *\
+    Main h2
+\* ------------------------------------------------------------ */
+
+.intro { background-color: #656565; padding: 7px 22px; }
+
+/* ------------------------------------------------------------ *\
+    Main
+\* ------------------------------------------------------------ */
+
+.main { padding: 13px 0 64px; }
+
+/* ------------------------------------------------------------ *\
+    Form
+\* ------------------------------------------------------------ */
+
+.form-checkout { padding: 36px 0 60px; margin: 0 -30px; }
+.border { border-right: 1px solid #dbdbdb; }
+.form-controls { margin-top: 8px; }
+.form-label { display: block; }
+.form-col { width: 50%; padding: 0 23px; float: left; }
+.form-col-head { margin-bottom: 47px; position: relative; }
+
+.form-label { font-weight: bold; }
+.form-row + .form-row { margin-top: 15px; }
+
+.field { width: 100%; height: 25px; border: 1px solid #b6b6b6; outline: none; padding: 0 10px; font-weight: bold;  font-family: Tahoma,sans-serif; color: #989898; }
+
+.form-notice { color: #ff0000; font-family: Tahoma, sans-serif; position: absolute; bottom: -25px; left: 50%; transform: translateX(-50%) }
+.form-asterisk { color: #ff0000; }
+
+/* ------------------------------------------------------------ *\
+    Field half
+\* ------------------------------------------------------------ */
+
+.field-half { width: 60%; }
+
+/* ------------------------------------------------------------ *\
+    Card month && card year
+\* ------------------------------------------------------------ */
+
+.card-month { width: 50%; display: inline-block; }
+.card-year { width: 46%; margin-left: 2%; display: inline-block; }
+
+/* ------------------------------------------------------------ *\
+    Btn
+\* ------------------------------------------------------------ */
+
+.btn { background-color: #656565; font-family: 'Myriad Pro', sans-serif; color: #fff; border-radius: 5px; font-size: 14px; text-decoration: none; font-weight: bold; text-transform: uppercase; padding: 5px 16px; min-width: 120px; }
+.btn:hover { background: #333; }
+
+.btn-next { float: right; text-align: right; }
+.btn-back { float: left; }
+
+/* ------------------------------------------------------------ *\
+     Footer
+ \* ------------------------------------------------------------ */
+ 
+.footer { border-top: 1px solid #e0e0e0; padding: 16px 0 52px; text-align: center; }
+
+.footer-nav { font-size: 14px; text-transform: uppercase; font-weight: bold; margin-bottom: 13px;  }
+.footer-nav li { display: inline; }
+.footer-nav li + li { margin-left: 20px; }
+.footer-nav a { color: #666; text-decoration: none;  }
+.footer-nav .active a { color: #a3a3a3; }
+
+
+/* ------------------------------------------------------------ *\
+    Field select arrow 
+\* ------------------------------------------------------------ */
+
+.field-select { -webkit-appearance: none; -moz-appearance: none; appearance: none; }
+
+.arrow { position: relative; }
+.arrow:after { content: ''; display: inline-block; width: 0; height: 0; border-style: solid; border-width: 7px 6.5px 0 6.5px; border-color: #4d4d4d transparent transparent transparent; position: absolute; right: 5px; top: 50%; transform: translateY(-50%); pointer-events: none }
+
+
+/* ------------------------------------------------------------ *\
+    Type numbers
+\* ------------------------------------------------------------ */
+
+.field-numbers::-webkit-inner-spin-button, 
+.field-numbers::-webkit-outer-spin-button { -webkit-appearance: none; }
+
+
+/* ------------------------------------------------------------ *\
+    Nav hover
+\* ------------------------------------------------------------ */
+
+.nav a:hover, 
+.footer-nav a:hover{ color: #000; text-decoration: underline; ;}

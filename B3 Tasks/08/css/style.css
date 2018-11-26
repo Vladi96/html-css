@@ -1,0 +1,119 @@
+/* ------------------------------------------------------------ *\
+    Fonts
+	
+	<!-- @import url(fonts/font-style.css); -->
+\* ------------------------------------------------------------ */
+
+
+/* ------------------------------------------------------------ *\
+    Reset
+\* ------------------------------------------------------------ */
+
+* { margin: 0; padding: 0; box-sizing: border-box; }
+
+a:before,
+a:after { box-sizing: inherit; }
+
+ul { list-style-type: none }
+
+/* ------------------------------------------------------------ *\
+    Base
+\* ------------------------------------------------------------ */
+
+body { font-family: 'Helvetica Neue (TT)', sans-serif; font-size: 14px; line-height: 1.57; color: #393536; background: #fff; }
+
+h1 { font-size: 19px; color: #1f1f24; }
+
+a { color: #66952b ; text-decoration: underline; }
+a:hover { color: #999; text-decoration: none; }
+
+/* ------------------------------------------------------------ *\
+    Clear
+\* ------------------------------------------------------------ */
+
+.clear:after { content: ''; display: block; clear: both; }
+
+/* ------------------------------------------------------------ *\
+    Shell
+\* ------------------------------------------------------------ */
+
+.shell { margin: 0 auto; width: 880px; }
+
+
+/* ------------------------------------------------------------ *\
+    Footer & Header
+\* ------------------------------------------------------------ */
+
+.footer,
+.header { padding: 80px 0; text-align: center; background-color: #979797; color: #fff; }
+
+
+/* ------------------------------------------------------------ *\
+    Container
+\* ------------------------------------------------------------ */
+
+.container { padding: 70px 0 175px; }
+
+
+/* ------------------------------------------------------------ *\
+    Table product
+\* ------------------------------------------------------------ */
+
+.table-product { padding: 20px 0; }
+.table-product table { border-spacing: 0; width: 100%; border: 1px solid #cccccb; }
+.table-product th { font-weight: 700; text-transform: uppercase; padding: 13px 20px; text-align: left; background: linear-gradient(to bottom, #fefefe 0%, #cbcbcb 100%); }
+.table-product th + th { text-align: center; border-left: 1px solid #bdbdbc; padding: 14px 0;}
+.table-product tr:nth-child(even) { background-color: #f6f4f4; }
+.table-product tr:nth-child(odd) { background-color: #fff; }
+.table-product td { padding: 14px 20px; border-top: 1px solid #bdbdbc; font-weight: 600; }
+.table-product td + td { border-left: 1px solid #bdbdbc; text-align: center; }
+
+.col-1 { width: 224px; }
+.col { width: 107px; }
+
+.check { background: url(images/check.png) no-repeat 0 0; width: 18px; height: 15px; display: inline-block; }
+
+/* ------------------------------------------------------------ *\
+    Chose plan
+\* ------------------------------------------------------------ */
+
+.chose-plan { padding-left:  232px;}
+.chose-plan li { width: 108px; padding: 11px 16px; background: linear-gradient(to bottom, #fefefe 0%, #cbcbcb 100%); border: 1px solid #c2c1c1; font-size: 10px; font-weight: 900; }
+.chose-plan .btn {  color: #393536; text-decoration: none; text-transform: uppercase; }
+.chose-plan li:first-child { border-radius: 5px 0px 0px 5px; }
+.chose-plan li:last-child { border-radius: 0px 5px 5px 0px; }
+
+/* ------------------------------------------------------------ *\
+    Holder
+\* ------------------------------------------------------------ */
+
+.holder { display: table; }
+.holder li { display: table-cell; text-align: center; vertical-align: middle; }
+.holder .btn-active { background: none; background-color: #68982c; }
+.btn-active .btn { color: #fff; }
+
+/* ------------------------------------------------------------ *\
+    Billing view
+\* ------------------------------------------------------------ */
+
+.visa-ico { background: url(images/visa.png) no-repeat 0 0; width: 39px; height: 25px; display: inline-block; vertical-align: middle; }
+.billing-view { padding: 20px 0 40px; margin: 50px 0 30px; border-top: 1px solid #d8d9d7; border-bottom: 1px solid #d8d9d7; }
+.billing-view h1 { margin-bottom: 10px; }
+
+.aside { font-weight: 900; margin-top: 20px; }
+
+.aside i { margin: -3px 15px 0 0; }
+
+/* ------------------------------------------------------------ *\
+    Delete Btn    
+\* ------------------------------------------------------------ */
+
+.btn-delete { padding: 17px 30px; background-color: #c23734; color: #fff; border-radius: 5px; font-family: 'Myriad Pro', sans-serif; text-transform: uppercase; text-decoration: none; display: inline-block;}
+
+/* ------------------------------------------------------------ *\
+    Active
+\* ------------------------------------------------------------ */
+
+th.active { background: none; background-color: #76ae32; color: #fff; }
+.td-active { background-color: #d6e6c2; }
+

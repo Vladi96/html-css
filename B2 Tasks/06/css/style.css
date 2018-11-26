@@ -1,0 +1,198 @@
+/* ------------------------------------------------------------ *\
+    Fonts
+	
+	<!-- @import url(fonts/font-style.css); -->
+\* ------------------------------------------------------------ */
+
+
+/* ------------------------------------------------------------ *\
+    Reset
+\* ------------------------------------------------------------ */
+
+* { margin: 0; padding: 0; box-sizing: border-box; }
+
+a:before,
+a:after { box-sizing: inherit; }
+
+ul { list-style-type: none }
+
+/* ------------------------------------------------------------ *\
+    Base
+\* ------------------------------------------------------------ */
+
+body { font-family: 'Source Sans Pro', sans-serif; font-size: 14px; line-height: 1.43; color: #364247; background: #fff; }
+
+h2 { font-size: 18px; font-weight: normal; font-family: 'Droid Serif', serif; }
+h1 { font-size: 24px; font-weight: normal; }
+
+a { color: #587a83; text-decoration: underline; }
+a:hover { color: #fc5f5f; text-decoration: none; }
+
+/* ------------------------------------------------------------ *\
+    Clear
+\* ------------------------------------------------------------ */
+
+.clear:after { content: ''; display: block; clear: both; }
+
+/* ------------------------------------------------------------ *\
+    Shell
+\* ------------------------------------------------------------ */
+
+.shell { margin: 0 auto; width: 1200px; }
+
+
+/* ------------------------------------------------------------ *\
+    Header
+\* ------------------------------------------------------------ */
+
+.header { border-bottom: 1px solid #39464e; }
+
+/* ------------------------------------------------------------ *\
+	Logo
+\* ------------------------------------------------------------ */
+
+.logo { text-indent: -4444px; font-size: 0; background: url(images/logo.png) no-repeat 0 0; width: 142px; height: 46px; margin: 6px 0; float: left; }
+
+/* ------------------------------------------------------------ *\
+	Header nav    
+\* ------------------------------------------------------------ */
+
+.nav { float: right; }
+.nav li { float: left; border-left: 1px solid #39464e; }
+.nav li + li { border-right: 1px solid #39464e; }
+
+.new-application {background-color: #587a83; padding: 11px 29px; }
+.new-applitaion-link { background-color: #ff5250; border-radius: 6px; padding: 8px 18px; display: inline-block; color: #fff; text-decoration: none; }
+.new-applitaion-link:before { content: ''; background: url(images/paper-img.png) no-repeat 0 0; width: 17px; height: 23px; display: inline-block; vertical-align: bottom; margin-right: 13px; }
+.new-applitaion-link:hover { text-decoration: underline; color: #dfe5e7; background-color: #943126; }
+
+.profile-img { background: url(images/profile-img.png); width:58px; height: 61px; display: block; }
+
+/* ------------------------------------------------------------ *\
+    Main
+\* ------------------------------------------------------------ */
+
+.main { background-color: #eee; padding: 46px 0 99px; }
+
+/* ------------------------------------------------------------ *\
+	Container
+\* ------------------------------------------------------------ */
+
+.container { border: 1px solid #38464e; border-radius: 5px; background-color: #fff; position: relative;}
+.container:before { content: '';  position: absolute; left: 50%; transform: translateX(-50%); top: 0; bottom: 0;  border-left: 1px solid #38464e; }
+.document-author { color: #587a83; }
+
+
+/* ------------------------------------------------------------ *\
+    Container side left
+\* ------------------------------------------------------------ */
+
+.container-side-left { padding: 30px 15px 22px; width: 50%; float: left; }
+.container-side-right { float: left; padding: 33px 22px 24px 15px; width: 50%; }
+
+/* ------------------------------------------------------------ *\
+    Form
+\* ------------------------------------------------------------ */
+
+.form-head { margin-bottom: 20px; }
+.form-group-title { margin-bottom: 23px; }
+.form-row + .form-row { margin-top: 25px; }
+.form-hint { font-size: 12px;  }
+.form-btn { background-color: #ff5250; padding: 15px 54px; color: #fff; border-radius: 6px; border: none; float: right; cursor: pointer; }
+.form-btn:hover { color: #ff5250; background-color: #999; font-weight: bold; border-radius: 9px; }
+.form-actions { padding: 30px 15px 0 15px; }
+
+.form-notice { color: #333; }
+.form-notice-required:before { content: ''; background-color: #ff5250; width: 8px; height: 20px; display: inline-block; vertical-align: bottom; margin-right: 7px; }
+
+.form-section { background-color: #eee; border-radius: 6px; padding: 15px 5px; }
+.form-section + .form-section { margin-top: 15px; }
+
+.form-col { float: left; width: 50%; padding: 0 10px; }
+.field-1of2 { margin: 0 -10px }
+
+.field { width: 100%; padding: 10px 8px; border-radius: 4px; border: 1px solid #364247; color: #364247; font-family: 'Source Sans Pro', sans-serif; outline-color: #58D68D; font-size: 14px;}
+
+.form-controls { margin-top: 10px; }
+
+
+/* ------------------------------------------------------------ *\
+    Containers 
+\* ------------------------------------------------------------ */
+
+.container-section + .container-section { border-top: 1px solid #39464e; margin-top: 24px; padding-top: 20px; }
+.container-body { margin-top: 22px; }
+
+.section-head h2 { display: inline-block; }
+.section-head .new-applitaion-link { margin-top: -10px; float: right; }
+
+.container-body li + li { margin-top: 8px; }
+
+
+/* ------------------------------------------------------------ *\
+    Tables
+\* ------------------------------------------------------------ */
+
+.table-info th {  box-shadow: inset 0px 1px 0px 0px rgba(59,70,75,1); overflow: hidden; }
+.table-info th:first-child { border-radius: 6px 0 0 0; box-shadow: inset 1px 1px 0px 0px rgba(59,70,75,1); }
+
+.table-info th:last-child { border-radius: 0 6px 0 0; box-shadow: inset -1px 1px 0px 0px rgba(59,70,75,1); }
+
+.table-info table { width: 100%; text-align: left; border-collapse: collapse; }
+
+.table-info td + td,
+.table-info th + th { border-left: 1px solid #d3d3d3; }
+.table-info th { padding: 12px 20px; background-color: #587a83; color: #fff; font-weight: normal; }
+
+.table-info tbody tr { }
+
+.table-info tr:nth-child(even) { background-color: #dfe5e7 }
+.table-info tr:nth-child(odd) { background-color: #fff; }
+
+.table-info td { border-bottom: 1px solid #364247; border-top: 1px solid #364247; padding: 8px 18px; }
+.table-info td:first-child { box-shadow: inset 1px 0px 0px 0px rgba(59,70,75,1); }
+.table-info td:last-child { box-shadow: inset -1px 0px 0px 0px rgba(59,70,75,1); }
+
+.col-1 { width: 93px; }
+.col-2 { width: 80px; }
+.col-3 { width: 90px; }
+.col-4 { width: 95px; }
+.col-5 { width: 178px; }
+
+.col-2of3 { width: 112px; }
+.col-3of3 { width: 115px; }
+
+
+/* ------------------------------------------------------------ *\
+    Padding 
+\* ------------------------------------------------------------ */
+
+.footer { padding: 22px 0; border-top: 1px solid #000; }
+
+
+/* ------------------------------------------------------------ *\
+    Require
+\* ------------------------------------------------------------ */
+
+.require { position: relative; }
+.require:after { content: ''; width: 7px; background-color: #ff5250;  position: absolute; top: 1px; bottom: 1px; right: 1px;  border-radius: 0 3px 3px 0; }
+
+
+/* ------------------------------------------------------------ *\
+    Select arrow
+\* ------------------------------------------------------------ */
+
+.field-select { -webkit-appearance: none;  appearance: none; }
+.form-select { position: relative; }
+.form-select:after { content: ''; position: absolute; background: url(images/arrow-select.png) no-repeat 0 0; width: 11px; height: 7px; top: 50%; transform: translateY(-50%); right: 10px; pointer-events: none; }
+
+
+/* ------------------------------------------------------------ *\
+    Type date
+\* ------------------------------------------------------------ */
+
+.field-date { position: relative; padding-right: 50px; }
+.field-date .field {  }
+.field-date:after { content: ''; position: absolute; background: url(images/calendar-img.png) no-repeat 0 0; width: 29px; height: 29px; top: 50%; transform: translateY(-50%); right: 0; }
+.field-date .field::-webkit-calendar-picker-indicator{ color: transparent; background-color: transparent; width: 10%; height: 100%; position: absolute; right: 0; z-index: 2; cursor: pointer; }
+.field-date .field::-webkit-inner-spin-button { display: none; -webkit-appearance: none; }

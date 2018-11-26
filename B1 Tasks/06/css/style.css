@@ -1,0 +1,141 @@
+/* ------------------------------------------------------------ *\
+    Fonts
+    
+\* ------------------------------------------------------------ */
+
+ @import url(fonts/font-style.css);
+
+/* ------------------------------------------------------------ *\
+    Reset
+\* ------------------------------------------------------------ */
+
+* { margin: 0; padding: 0; box-sizing: border-box; }
+
+a:before,
+a:after { box-sizing: inherit; }
+
+ul { list-style-type: none; }
+
+/* ------------------------------------------------------------ *\
+    Base
+\* ------------------------------------------------------------ */
+
+body { font-family: "Trebuchet MS", sans-serif; font-size: 11px; line-height: 1.2; }
+
+h1 { font-size: 22px; color: #fff; text-transform: uppercase; margin-bottom: 44px; }
+h2 { font-size: 26px; color: #fff; text-transform: uppercase; margin-bottom: 9px; }
+h3 { font-size: 13px; color: #002f47; text-transform: uppercase; }
+
+a { color: #222; text-decoration: none; text-transform: uppercase; font-weight: bold; }
+
+/* ------------------------------------------------------------ *\
+    Clear
+\* ------------------------------------------------------------ */
+
+.clear { clear: both; }
+
+/* ------------------------------------------------------------ *\
+    Site
+\* ------------------------------------------------------------ */
+
+.shell { margin: 0 auto; width: 1030px; }
+
+
+/* ------------------------------------------------------------ *\
+    Header
+\* ------------------------------------------------------------ */
+
+.header { padding: 25px 96px;  }
+.header .logo { color: transparent; }
+.logo { background-image: url(images/logo.png); background-repeat: no-repeat; width: 117px; height: 27px; display: inline-block; }
+
+.nav { float: right; margin-top: 7px; }
+.nav a { color: #5e5f5f; }
+.nav li { display: inline-block; }
+
+/* ------------------------------------------------------------ *\
+    Nav links style
+\* ------------------------------------------------------------ */
+
+.nav a::before,
+.nav a::after { display: inline-block; opacity: 0; transition: transform 0.3s, opacity 0.2s; }
+
+.nav a::before { margin-right: 5px; content: '{'; transform: translateX(10px); }
+
+.nav a::after { margin-left: 5px; content: '}'; transform: translateX(-10px); }
+
+.nav a:hover::before,
+.nav a:hover::after,
+.nav a:focus::before,
+.nav a:focus::after { opacity: 1; transform: translateX(0px); }
+
+/* ------------------------------------------------------------ *\
+    Intro
+\* ------------------------------------------------------------ */
+
+.intro-body { background-image: url(images/banner.jpg); background-repeat: no-repeat; padding: 112px 0 119px 93px; background-size: cover; }
+.intro-body h1 { max-width: 380px; }
+.intro-callout .btn { padding: 9px 38px; background-color: #002f47; }
+
+/* ------------------------------------------------------------ *\
+    Intro callout
+\* ------------------------------------------------------------ */
+
+.intro-callout { background-color: #ffae00; text-align: center; padding: 13px 0 10px; }
+.intro-callouta { background-color: #002f47; padding: 9px 39px; border-radius: 5px; }
+
+/* ------------------------------------------------------------ *\
+    Button
+\* ------------------------------------------------------------ */
+
+.btn { background-color: #002f47; color: #fff; padding: 10px 22px; display: inline-block; transition-duration: 0.6s; border-radius: 8px; transition-timing-function: cubic-bezier(0.47, 2.02, 0.31, -0.36); }
+
+.btn:hover,
+.btn:active { transform: scale(1.2); color: #5cb85c;  }
+
+.btn-secondary { padding: 6px 16px; background-color: #ffae00; border-radius: 5px; font-size:9px; display: inline-block; }
+.btn-secondary:hover { color: #333; }
+    
+/* ------------------------------------------------------------ *\
+    Main    
+\* ------------------------------------------------------------ */
+
+.main { padding: 43px 220px 70px 99px; }
+
+/* ------------------------------------------------------------ *\
+    Icons
+\* ------------------------------------------------------------ */
+
+[class^="ico"] { display: inline-block; background-repeat: no-repeat; }
+.ico-brain { background-image: url(images/brain.png); width: 63px; height: 67px; }
+.ico-target { background-image: url(images/target.png); width: 55px; height: 46px; }
+.ico-pills { background-image: url(images/pills.png); width: 57px; height: 62px;}
+
+/* ------------------------------------------------------------ *\
+    Article
+\* ------------------------------------------------------------ */
+
+.article + .article { margin-top: 43px; }
+
+.article-image {  float: left; }
+
+.article-content { float: left; }
+.article-content { width: 86%; margin-left: 9px; }
+
+.article-content h3,
+.article-content p { margin-bottom: 18px; }
+
+/* ------------------------------------------------------------ *\
+    Footer
+\* ------------------------------------------------------------ */
+
+.footer { background-color: #006497; padding: 24px 90px 24px 90px; min-height: 200px; }
+.footer p { color: #fff; margin-bottom: 10px; }
+
+.footer ul,
+.footer li { float: left; }
+
+.footer li + li:before { content: '\00a0| '; color:#fff; }
+
+.footer a { color: #fff; text-transform: none; font-weight: normal; }
+.footer a:hover { color: #222; }

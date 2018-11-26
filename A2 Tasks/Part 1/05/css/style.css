@@ -1,0 +1,16 @@
+* { margin: 0; padding: 0; }
+
+.shell { margin-left: auto; margin-right: auto; width: 880px; }
+
+.banner { background-color: #c9c9c9; float: left; }
+.banner + .banner { margin-left: 20px; }
+
+.main-rectangle { background-color: #2389a6; height: 150px; width: 240px; margin: 20px; }
+
+.footer { background-color: #aeaeae; padding: 20px; }
+
+.middle-rectangle { background-color: #d47300; width: 140px; height: 20px; margin: 0 auto 10px; }
+
+.last-rectangle { background-color: #23a654; height: 40px; }
+
+.clear { clear: both; }

@@ -1,0 +1,40 @@
+/* ------------------------------------------------------------ *\
+    Reset
+\* ------------------------------------------------------------ */
+
+* { margin: 0; padding: 0; box-sizing: border-box; }
+
+a:before,
+a:after { box-sizing: inherit; }
+
+/* ------------------------------------------------------------ *\
+    Site
+\* ------------------------------------------------------------ */
+
+.clear { clear: both; }
+
+.shell { margin: 0 auto; width: 880px; }
+
+/* ------------------------------------------------------------ *\
+    Container
+\* ------------------------------------------------------------ */
+
+.container { width: 425px; float: left; }
+.container + .container { float: right; }
+
+/* ------------------------------------------------------------ *\
+    Figures
+\* ------------------------------------------------------------ */
+
+.square { width: 80px; height: 80px; background-color: #23a654; position: absolute; }
+
+.part-top { width: 80px; position: absolute; left: 100%; top: 0; margin-left: 15px; }
+
+.purple-rect { height: 20px; margin-bottom: 5px; background-color: #7323a6; }
+
+.pink-rect { height: 5px; background-color: #bc5bad; }
+
+.containter-rows { width: 380px; padding: 20px; padding-left: 60px; background-color: #c9c9c9; margin: 40px 0 0 40px; }
+
+.row { height: 20px; background-color: #d47300; }
+.row + .row { margin-top: 10px; }

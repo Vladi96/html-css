@@ -1,0 +1,28 @@
+* { margin: 0; padding: 0; }
+
+.shell { margin-left: auto; margin-right: auto; width: 1030px; }
+
+.section { background-color: #c9c9c9; padding: 20px; width: 890px; float:left; }
+
+.square { width: 80px; height: 80px; background-color: #2389a6; float: left; margin-right: 20px}
+
+.green-rectangles { padding-top: 40px; float: left; }
+
+.rectangle { float: left; width: 100px; height: 40px; background-color: #23a654; }
+.rectangle + .rectangle { margin-left: 10px; }
+
+.middle-part { float: left; margin-left: 35px; }
+
+.middle-top-part { margin-bottom: 20px; }
+
+.middle-part-rectangle { width: 65px; height: 20px; background-color: #bc5bad; float: left; }
+.middle-part-rectangle + .middle-part-rectangle { margin-left: 10px; }
+
+.middle-part-square { width: 40px; height: 40px; background-color: #7323a6; float: left; }
+.middle-part-square + .middle-part-square {  margin-left: 10px; }
+
+.right-part { width: 100px; background-color: #a8a8a8; float: right; padding: 40px 0; }
+
+.right-part-square { width: 40px; height: 40px; background-color: #7323a6; margin: 0 auto; }
+
+.clear { clear: both; }

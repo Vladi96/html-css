@@ -1,0 +1,163 @@
+/* ------------------------------------------------------------ *\
+    Fonts
+	
+	<!-- @import url(fonts/font-style.css); -->
+\* ------------------------------------------------------------ */
+
+
+/* ------------------------------------------------------------ *\
+    Reset
+\* ------------------------------------------------------------ */
+
+* { margin: 0; padding: 0; box-sizing: border-box; }
+
+a:before,
+a:after { box-sizing: inherit; }
+
+ul { list-style-type: none }
+
+/* ------------------------------------------------------------ *\
+    Base
+\* ------------------------------------------------------------ */
+
+body { font-family: Arial, sans-serif; font-size: 14px; line-height: 1.31; color: #61666b; background: #fff; }
+
+h1 { font-size: 22px; font-weight: normal; color: #fff; margin-bottom: 12px; }
+h2 { font-size: 30px; font-weight: normal; color: #52595e; font-family: Georgia, serif; }
+h3 { font-size: 18px; font-weight: normal; }
+
+a { color: #555; text-decoration: underline; }
+a:hover { color: #fc5f5f; text-decoration: none; }
+
+::placeholder { color: #b6b6b7; font-family: Georgia, serif; font-size: 20px; font-style: italic; }
+
+/* ------------------------------------------------------------ *\
+    Clear
+\* ------------------------------------------------------------ */
+
+.clear:after { content: ''; display: block; clear: both; }
+
+/* ------------------------------------------------------------ *\
+    Shell
+\* ------------------------------------------------------------ */
+
+.shell { margin: 0 auto; width: 980px; }
+
+
+/* ------------------------------------------------------------ *\
+    Header
+\* ------------------------------------------------------------ */
+
+.header { padding: 88px 0; background-color: #979797; color: #fff; font-family: 'Trebuchet MS', sans-serif; font-size: 20px; text-align: center; }
+
+
+/* ------------------------------------------------------------ *\
+    Main title
+\* ------------------------------------------------------------ */
+
+.main-title { background-color: #6c7276; padding: 16px 0 13px 44px; color: #d4d4d4; border-bottom: 10px solid #52595e; }
+
+
+/* ------------------------------------------------------------ *\
+    Form register
+\* ------------------------------------------------------------ */
+
+.form-register { padding: 28px 0 120px 44px; }
+.form-head { font-size: 14px; margin-bottom: 35px; }
+.form-section { width: 585px; padding-bottom: 84px; }
+
+.form-row + .form-row { margin-top: 40px; }
+.form-label { font-size: 18px; color: #52595e; font-weight: bold; }
+.form-asterisk { color: #992222; }
+.form-controls { margin: 12px 0 13px; }
+
+.field { width: 100%; padding: 11px 0 12px 20px;  background-color: #f2f2f2; font-size: 20px; border: 1px solid #64a7c1; border-radius: 4px; color: #b6b6b7; font-family: Georgia, serif; font-style: italic; box-shadow: inset 0px 5px 22px 0px rgba(225,225,225,1); outline-color: #48C9B0; }
+.field-sm { width: 62px; padding: 14px; }
+.field-md-big { width: 107px; padding: 12px; }
+.field-md { width: 86px; padding: 14px; }
+.field-size1 { width: 490px; }
+
+.field-select { background: linear-gradient(to bottom, #eeeeee 0%, #eeeeee 51%, #e2e2e2 52%, #e2e2e2 100%); border: 1px solid #b6bcc1; }
+
+.field-date .form-col + .form-col:before { content: '/'; margin: 0 11px; font-size: 45px; vertical-align: middle; }
+.form-col-age .form-controls:before { content: 'or'; font-size: 30px; margin-right: 14px; font-family: Georgia, serif; }
+.form-col-age { margin-left: 10px;  }
+.form-col-age .form-label { margin-left: 48px; }
+.row-bd { margin-bottom: -15px; }
+
+.form-row .form-col { float: left; }
+
+/* ------------------------------------------------------------ *\
+    Radio btn styling
+\* ------------------------------------------------------------ */
+
+.list-checkboxes li { display: inline-block; }
+.list-checkboxes li + li { margin-left: 20px }
+.view01 { display: inline-block; margin: 0 0 0 10px }
+
+.radio-box { position: relative; padding-left: 23px; margin-bottom: 12px; user-select: none; }
+
+/* Hide the browser's default radio button */
+.radio-box input { margin-left: -4444px; }
+
+/* Create a custom radio button */
+.radio-box span { position: absolute; top: 0; left: 0; height: 15px; width: 15px; background-color: #f3f6f9; border-radius: 4px; border: 1px solid #c7cacc; }
+
+/* On mouse-over, add a grey background color */
+.radio-box:hover input ~ span { background-color: #f3f6f9; }
+
+/* When the radio button is checked, add a blue background */
+.radio-box input:checked ~ span { background-color: #f3f6f9; }
+
+/* Create the indicator (the dot/circle - hidden when not checked) */
+.radio-box span:after { content: ''; position: absolute; display: none; }
+
+/* Show the indicator (dot/circle) when checked */
+.radio-box input:checked ~ span:after { display: block; }
+
+/* Style the indicator (dot/circle) */
+.radio-box span:after { left: 5px; top: 1px; width: 3px; height: 7px; border: solid #83909a; border-width: 0 2px 2px 0; transform: rotate(45deg); }
+
+
+/* ------------------------------------------------------------ *\
+    Checkbox 
+\* ------------------------------------------------------------ */
+
+.list-check-box { margin-top: 12px; }
+.list-check-box li + li { margin-top: 25px; }
+
+.checkbox input { margin-left: -4444px; }
+.checkbox span { position: absolute; top: -4px; left: 0; height: 30px; width: 30px; background-color: #f1f4f7; border: 1px solid #c7cacc; border-radius: 4px; }
+.checkbox span:after { content: ''; position: absolute; display: none; }
+
+.checkbox label { display: block; position: relative; padding-left: 40px; cursor: pointer; user-select: none; font-size: 18px; }
+.checkbox input:checked ~ span:after { display: block; }
+.checkbox span:after { content: ''; background: url(images/checkbox.png) no-repeat 0 0; width: 22px; height: 22px; left: 50%; top: 50%; transform: translate(-50%, -50%); }
+
+
+/* ------------------------------------------------------------ *\
+    Select 
+\* ------------------------------------------------------------ */
+
+.field-select-arrow { position: relative; }
+select {  /* for Firefox */  -moz-appearance: none;  /* for Chrome */  -webkit-appearance: none; }
+.field-select-arrow:after { content: ''; position: absolute; border-left: 1px solid #b6bcc1; height: 100%; right: 34px; top: 0px; pointer-events: none; }
+.field-select-arrow:before { content: ''; position: absolute; background: url(images/select-arrows.png) no-repeat 0 0;pointer-events: none; width: 10px; height: 19px; right: 12px; top: 50%; transform: translateY(-50%);}
+
+
+/* ------------------------------------------------------------ *\
+    Btn
+\* ------------------------------------------------------------ */
+
+.form-btn { font-family: 'AlternateGothic2 BT', sans-serif; font-size: 23px; text-transform: uppercase; border: none; font-weight: 500; border-radius: 6px; cursor: pointer; }
+.form-btn + .form-btn { margin-left: 15px; }
+.form-btn:hover { background: linear-gradient(to bottom, #edbb99 0%, #edbb99 51%, #9c640c 52%, #9c640c 100%); color: #21618c; }
+
+.btn-green { color: #fff; padding: 26px 47px 25px 35px;  background: linear-gradient(to bottom, #6faf9f 0%, #6faf9f 51%, #69a697 52%, #69a697 100%); border: 1px solid #bac0c5; }
+.btn-gray { color: #909090; padding: 26px 70px; background: linear-gradient(to bottom, #eeeeee 0%, #eeeeee 51%, #e2e2e2 52%, #e2e2e2 100%); border: 1px solid #b9bfc4; }
+
+/* ------------------------------------------------------------ *\
+    Footer
+\* ------------------------------------------------------------ */
+
+.footer { background-color: #979797; padding: 90px 0; text-align: center; color: #fff; font-weight: bold; font-size: 20px; }

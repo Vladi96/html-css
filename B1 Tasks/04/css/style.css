@@ -1,0 +1,118 @@
+/* ------------------------------------------------------------ *\
+    Fonts
+    
+    <!-- @import url(fonts/font-style.css); -->
+\* ------------------------------------------------------------ */
+
+
+/* ------------------------------------------------------------ *\
+    Reset
+\* ------------------------------------------------------------ */
+
+* { margin: 0; padding: 0; box-sizing: border-box; }
+
+a:before,
+a:after { box-sizing: inherit; }
+
+/* ------------------------------------------------------------ *\
+    Base
+\* ------------------------------------------------------------ */
+
+body { font-family: "Trebuchet MS", sans-serif; font-size: 16px; line-height: 1.375; color: #333; background: #fff; }
+
+h1 { font-size: 40px; font-weight: normal; line-height: auto; color: #0067a3; }
+h2 { font-size: 30px; font-weight: normal; line-height: auto; color: #0073ab; }
+h3 { font-size: 14px; font-weight: normal; line-height: auto; color: ; }
+
+a { color: #0073ab; text-decoration: none; }
+a:hover { text-decoration: underline; }
+
+/* ------------------------------------------------------------ *\
+    Clear
+\* ------------------------------------------------------------ */
+
+.clear { clear: both; }
+
+/* ------------------------------------------------------------ *\
+    Site
+\* ------------------------------------------------------------ */
+
+.shell { margin: 0 auto; width: 678px; }
+
+/* ------------------------------------------------------------ *\
+    Header
+\* ------------------------------------------------------------ */
+
+.header { padding: 6px 0; }
+.header .logo { background-image: url(images/ico.png); background-repeat: no-repeat; color: transparent; width: 39px; height: 47px; display: inline-block; position: relative; left: -15px; }
+
+/* ------------------------------------------------------------ *\
+    Intro
+\* ------------------------------------------------------------ */
+
+.intro { background: #e6e6e5; padding: 66px 0; text-align: center; line-height: 1.85; }
+.intro p { margin-top: 5px; }
+.intro p + p { margin-top: 20px; }
+
+/* ------------------------------------------------------------ *\
+    Main
+\* ------------------------------------------------------------ */
+
+.main { padding-bottom: 20px; }
+
+/* ------------------------------------------------------------ *\
+    Section
+\* ------------------------------------------------------------ */
+
+.section p { margin-top: 18px; }
+
+.section { padding: 70px 0; }
+.section + .section { border-top: 1px solid #ddd; }
+
+.section-reverse { text-align: right; }
+
+.section .btn { margin-top: 100px; }
+
+/* ------------------------------------------------------------ *\
+    Footer
+\* ------------------------------------------------------------ */
+
+.footer h3 { text-transform: uppercase; } 
+.footer-body { background: #e6e6e5; padding: 23px 0; }
+.footer-bar { font-size: 13px; padding: 10px 0; }
+
+/* ------------------------------------------------------------ *\
+    Icons
+\* ------------------------------------------------------------ */
+
+[class^="ico-"] { display: inline-block; background-position: 0 0; background-repeat: no-repeat; vertical-align: middle; }
+
+.ico-facebook { background-image: url(images/ico-facebook.png); width: 12px; height: 27px; }    
+.ico-twitter { background-image: url(images/ico-twitter.png); width: 27px; height: 23px; }     
+.ico-youtube { background-image: url(images/ico-youtube.png); width: 26px; height: 18px; }    
+.ico-instagram { background-image: url(images/ico-instagram.png); width: 26px; height: 25px; }    
+
+/* ------------------------------------------------------------ *\
+    Socials
+\* ------------------------------------------------------------ */
+
+.socials { padding-top: 20px; }
+
+.socials ul { list-style: none; }
+.socials li { display: inline-block; }
+.socials li + li { margin-left: 30px; }
+
+/* ------------------------------------------------------------ *\
+    Btn
+\* ------------------------------------------------------------ */
+
+.btn { background: #0073ab; color: #fff; position: relative; padding: 14px 30px; transition: 800ms ease all; border-radius: 5px; display: inline-block; }
+.btn:hover { background: #fff; color: #1aab8a; text-decoration: none; }
+
+.btn:before,
+.btn:after { content: ''; position: absolute; top: 0; right: 0; height: 2px; width: 0; background: #1AAB8A; transition: 400ms ease all; }
+
+.btn:after { right: inherit; top: inherit; left: 0; bottom: 0; }
+
+.btn:hover:before, 
+.btn:hover:after { width: 100%; transition: 800ms ease all; }

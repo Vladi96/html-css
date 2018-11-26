@@ -1,0 +1,12 @@
+* { margin: 0; padding: 0; }
+
+.shell { margin-left: auto; margin-right: auto; width: 880px; }
+
+.box { background-color: #c9c9c9; margin: 40px; width: 700px; padding: 40px; }
+.box:after { content: ''; clear: both; display: table; }
+
+.square { float: left; height: 200px; width: 200px; background-color: #d47300; }
+.rectangle { float: right; width: 460px; height: 200px; background-color: #2389a6; }
+
+.reverse .square { float: right; }
+.reverse .rectangle { float: left; }

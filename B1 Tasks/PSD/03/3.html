@@ -1,0 +1,293 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>3</title>
+
+	<link rel="stylesheet" type="text/css" href="css/style.css">
+
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+	<script src="app.js"></script>  		
+
+	<meta charset="utf-8">
+</head>
+<body>
+	<div class="wrapper">
+		<header class="header clear">
+			<a href="#" class="logo">Yestadt millinery</a>
+			
+			<div class="shell header-main">
+				<h1>
+					<a href="#">Checkout</a>
+				</h1>
+			
+				<nav class="nav shell clear">	
+					<ul>
+						<li>
+							<a href="#">shipping</a>
+						</li>
+						
+						<li class="active">
+							<a href="#">billing</a>
+						</li>					
+
+						<li>
+							<a href="#">review</a>
+						</li>
+					</ul>
+				</nav>
+			</div><!-- /. -->
+
+			
+		</header><!-- /.header -->
+
+		<div class="shell">
+			<div class="main clear">
+				<h2>This product was added to your shopping cart</h2>
+
+				<div class="form-checkout">
+					<form method="post">
+						<div class="form-body clear">
+							<div class="form-col border">
+								<div class="form-col-head">
+									<h3>billing information</h3>
+
+									<p class="form-notice"><span class="form-asterisk">*</span> Required</p>
+								</div><!-- /.form-col-head -->
+
+								<div class="form-row">
+									<label for="first-name">First Name <span class="form-asterisk">*</span><br></label>
+
+									<div class="form-controls">
+										<input type="text" name="first-name" id="first-name">
+									</div><!-- /.form-controls -->
+								</div><!-- /.form-row -->
+
+								<div class="form-row">
+									<label for="last-name">Last Name <span class="form-asterisk">*</span><br></label>
+
+									<div class="form-controls">
+										<input type="text" name="last-name" id="last-name">
+									</div><!-- /.form-controls -->
+								</div><!-- /.form-row -->
+
+								<div class="form-row">
+									<label for="address-line-1">Address Line 1 <span class="form-asterisk">*</span><br></label>
+
+									<div class="form-controls">
+										<input type="text" name="address-line-1" id="address-line-1">
+									</div><!-- /.form-controls -->
+								</div><!-- /.form-row -->
+
+								<div class="form-row">
+									<label for="address-line-2">Address Line 2</label>
+
+									<div class="form-controls">
+										<input type="text" name="address-line-2" id="address-line-2">
+									</div><!-- /.form-cont -->
+								</div><!-- /.form-row -->
+
+								<div class="form-row">
+									<label for="city">City <span class="form-asterisk">*</span><br></label>
+
+									<div class="form-controls">
+										<input type="text" name="city" id="city">
+									</div><!-- /.form-controls -->
+								</div><!-- /.form-row -->
+
+								<div class="form-row">
+									<label for="country">Country <span class="form-asterisk">*</span><br></label>
+
+									<select name="country" id="country">
+										<option value="us">United States Of America</option>
+
+										<option value="bg">Bulgaria</option>
+
+										<option value="de">Germany</option>
+									</select>
+								</div><!-- /.form-row -->
+
+								<div class="form-row countries">
+									<label for="state">State <span class="form-asterisk">*</span><br></label>
+
+									<div class="form-controls">
+										<ul>
+											<li class="us select">
+												<select name="state" id="state">
+													<option>Alaska</option>
+
+													<option>Florida</option>
+
+													<option>Texas</option>
+												</select>
+											</li>
+
+											<li class="bg hidden select">
+												<select  name="state" id="state">
+													<option>Varna</option>
+
+													<option>Dobrich</option>
+
+													<option>Sofia</option>
+												</select>
+											</li>
+
+											<li class="de hidden select">
+												<select name="state" id="state">
+													<option>Dortmund</option>
+
+													<option>Berlin</option>
+
+													<option>Hamburg</option>
+												</select>
+											</li>
+										</ul>
+
+									</div><!-- /.form-con -->
+								</div><!-- /.form-row -->
+
+								<div class="form-row">
+									<label for="zip-postal-code">Zip / Postal Code <span class="form-asterisk">*</span></label>
+
+									<div class="form-controls middle">
+										<input type="text" name="zip-postal-code" id="zip-postal-code" >
+									</div><!-- /.form-controls -->
+								</div><!-- /.form-row -->
+								
+								<div class="form-row">
+									<label for="phone-number">Phone Number <span class="form-asterisk">*</span><br></label>
+
+									<div class="form-controls">
+										<input type="text" name="phone-number" id="phone-number">
+									</div><!-- /.form-controls -->
+								</div><!-- /.form-row -->
+							</div><!-- /.form-col -->
+
+							<div class="form-col">
+								<div class="form-col-head">
+									<h3>payment information</h3>
+								</div><!-- /.form-col-head -->
+
+								<div class="form-row">
+									<label for="card-type">Credit Card Type<br></label>
+
+									<div class="form-controls">
+										<select id="card-type">
+											<option>Master Card</option>
+
+											<option>Visa</option>
+										</select>
+									</div><!-- /.form-controls -->
+								</div><!-- /.form-row -->
+
+								<div class="form-row">
+									<label for="card-number">Credit Card Number</label>
+
+									<div class="form-controls">
+										<input type="text" name="card-number" id="card-number">
+									</div><!-- /.form-controls -->
+								</div><!-- /.form-row -->
+
+								<div class="form-row middle">
+									<label for="security-number">Security Code</label>
+
+									<div class="form-controls">
+										<input type="text" name="security-number" id="security-number">
+									</div><!-- /.form-controls -->
+								</div><!-- /.form-row -->
+
+								<div class="form-row">
+									<label for="expiration">Expiration</label>
+
+									<div class="form-controls">
+										<select id="expiration" class="card-month">
+											<option disabled selected>Month</option>
+
+											<option>January</option>
+
+											<option>February</option>
+
+											<option>March</option>
+
+											<option>April</option>
+
+											<option>May</option>
+
+											<option>June</option>
+
+											<option>July</option>
+
+											<option>August</option>
+
+											<option>September</option>
+
+											<option>October</option>
+
+											<option>November</option>
+
+											<option>December</option>
+										</select>
+
+										<select class="card-year">
+											<option disabled selected>Year</option>
+										</select>
+									</div><!-- /.form-controls -->
+								</div><!-- /.form-row -->
+							</div><!-- /.form-col -->
+						</div><!-- /.form-body -->
+					</form>
+				</div><!-- /.form-checkout -->
+		
+				<a href="#" class="btn btn-back">Back</a>
+
+				<a href="#" class="btn btn-next">Next</a>
+			</div><!-- /.main -->
+		</div><!-- /.shell -->
+		<footer class="footer">
+			<div class="container">
+				<div class="footer-nav clear ">
+					<ul>
+						<li>
+							<a href="#">collections</a>
+						</li>
+
+						<li>
+							<a href="#">past colections</a>
+						</li>
+
+						<li class="active">
+							<a href="#">bridal</a>
+						</li>
+
+						<li>
+							<a href="#">collaborations</a>
+						</li>
+
+						<li>
+							<a href="#">press</a>
+						</li>
+
+						<li>
+							<a href="#">stocklist</a>
+						</li>
+
+						<li>
+							<a href="#">videos</a>
+						</li>
+
+						<li>
+							<a href="#">blog</a>
+						</li>
+
+						<li>
+							<a href="#">contact</a>
+						</li>
+					</ul>
+				</div><!-- /.footer-nav -->
+				
+				<p class="copyright">&copy; 2012 Yestadt Millinery. All Rights Reserved</p>
+			</div><!-- /.container -->
+
+		</footer><!-- /.footer -->
+	</div><!-- /.wrapper -->
+</body>
+</html>

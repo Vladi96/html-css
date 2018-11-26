@@ -1,0 +1,16 @@
+* { margin: 0; padding: 0; }
+
+.shell { margin-left: auto; margin-right: auto; width: 880px; }
+
+.box { width: 220px; height: 220px; background-color: #23a654; float: left; }
+
+.banner { background-color: #c9c9c9; float: right; width: 660px; padding: 20px 20px 30px; box-sizing: border-box; }
+
+.rows { float: left; width: 332px; }
+
+.row { background-color: #d47300; height: 20px; }
+.row + .row { margin-top: 10px; }
+
+.blue-box { float: right; margin-top: 120px; background-color: #2389a6; width: 101px; height: 40px; }
+
+.clear { clear: both; }
